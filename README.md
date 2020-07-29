@@ -18,7 +18,19 @@ There are two branches of higher education in France. First is European Universi
       <img height="300" src="images/schema-system.png">
 </div>
 
-I analysed the aggregated datasets from governmental French website (https://www.data.gouv.fr/), that summarise information gathered from students, that attain their degrees in public French universities following European University System. Data was collected after 12-18 months and 30-36 months after getting diploma: their job placement rates and salaries was collected. Datasets contain ~2000000 answers from about 60 universities accross France for 2010-2016 years range.
+I analysed the aggregated datasets from governmental French website (https://www.data.gouv.fr/), that summarise information gathered from students, that attain their degrees in public French universities following European University System. Data was collected after 12-18 months and 30-36 months after getting diploma: their job placement rates and salaries were collected. Datasets contain ~2000000 answers from about 60 universities accross France for 2010-2016 years range.
+
+    - https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplomes-de-master-en-universites-et-etablissements-assimiles/
+    - https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplome-e-s-de-licence-professionnelle-en-universites-et-etablissements-assimiles/
+    - https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplomes-de-doctorat-par-ensemble-universitaire/
+    - https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-principaux-etablissements-enseignement-superieur/information/?disjunctive.type_d_etablissement
+
+
+<div align="center">
+      <img height="300" src="images/schema-system.png">
+</div>
+
+
 
 
 
