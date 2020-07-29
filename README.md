@@ -27,15 +27,24 @@ I analysed the aggregated datasets from governmental French website (https://www
 
 
 <div align="center">
-      <img height="300" src="images/univ_locations.html">
+      <img height="400" src="images/univ_locations.png">
 </div>
 
+<div align="center">
+      <img height="400" src="images/students_distribution.png">
+</div>
 
+# Salary
+It's not fair to compare Bachelors' and Masters' salaries after graduation inbetween each other, as Bachelor students would gain 2 years of experience by the time their mates would finish their Master program. However, it's worth noticing, that avarage salaries grow with each higher education step within each domain.
 
+<div align="center">
+      <img height="400" src="images/salary.png">
+</div>
 
-
-
-
+# Job placement rates
+<div align="center">
+      <img height="400" src="images/job_placement.png">
+</div>
 
 # Conclusion
 It seems that studying longer and attaining higher degrees in France don't have a straightforward impact on the job placement rates. And threre are reasons for that, for a person with little experience, employer will have to pay more, if that person holds higher degree. So if he has a choice between Bachelor and Master, he will rather take Bachelor.
