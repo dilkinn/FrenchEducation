@@ -552,7 +552,7 @@ def students_num(df, time_per=1):
 
     cols_to_keep = [22, 19, 8, 16, 0, 10, 12]
 
-    df_map = f.keep_columns(df, cols_to_keep)
+    df_map = keep_columns(df, cols_to_keep)
     df_map = df_map.loc[cond].dropna()
 
     cols_gr = ["Géolocalisation", "Libellé", "Diploma Domain", "Annee"]
@@ -707,17 +707,17 @@ if __name__ == '__main__':
     df_all = merge_uni_all(univ_names, df_all)
 
     # Block 2: Plotting.
-    plot_domain_wise(df_all, "job placement", "job_placement.png")
-    plot_domain_wise(df_all, "salary", "salary.png")
+    plot_domain_wise(df_all, "job placement", "images/job_placement.png")
+    plot_domain_wise(df_all, "salary", "images/salary.png")
 
     # Universities ranking
     univ_ranking(df_all)
 
     # Folium
-    univ_locations(df_all) # ranks of universities
+    univ_locations(df_all, filename="images/univ_locations.html") # ranks of universities
     df_st_num = students_num(df_all, time_per=1) # number of students per location per year
-    students_distr_fig(df_st_num)
-    students_jbplcmt_fig(df_st_num)
+    students_distr_fig(df_st_num, filename="images/students_distr.html")
+    students_jbplcmt_fig(df_st_num, filename="images/job_placement_distr.html")
 
     # Hypothesis testing
     calc_n_st(df_all)
