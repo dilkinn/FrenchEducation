@@ -27,8 +27,10 @@ I analysed the aggregated datasets from governmental French website (https://www
 
 
 <div align="center">
-      <img height="300" src="images/schema-system.png">
+      <img height="300" src="images/univ_locations.html">
 </div>
+
+
 
 
 
