@@ -12,19 +12,22 @@ In this exploratory data analysis, I address following questions:
     - Does domain/discipline I choose affect my chances to end up being employed?
  
 # The Data 
-There are two branches of higher education in France. First is European University System, which include Bachelors, Masters, and Doctoral studies. Second is "Grandes écoles" system, traditional French higher education. It consists of two years of preparatory classes, followed by Engineering/Management/Law/etc. schools and Doctoral studies. First system is mostly public, whereas second privat.
+There are two branches of higher education in France. First is European University System, which include Bachelors, Masters, and Doctoral studies. Second is "Grandes écoles" system, traditional French higher education. It consists of two years of preparatory classes, followed by Engineering/Management/Law/etc. schools and Doctoral studies. First system is mostly public, whereas second is privat.
 
 <div align="center">
       <img height="300" src="images/schema-system.png">
 </div>
 
-I analysed the aggregated datasets from governmental French website (https://www.data.gouv.fr/), that summarise information gathered from students, that attain their degrees in public French universities following European University System. Data was collected after 12-18 months and 30-36 months after getting diploma: their job placement rates and salaries were collected. Datasets contain ~2000000 answers from about 60 universities accross France for 2010-2016 years range.
+I analysed the aggregated datasets from governmental French website (https://www.data.gouv.fr/), that summarise information gathered from students, that attain their degrees in public French universities within European University System. Data was collected after 12-18 months and 30-36 months after getting diploma: their job placement rates and salaries were collected. Datasets contain ~2000000 answers from about 60 universities accross France for 2010-2016 years range.
 
     - https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplomes-de-master-en-universites-et-etablissements-assimiles/
     - https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplome-e-s-de-licence-professionnelle-en-universites-et-etablissements-assimiles/
     - https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplomes-de-doctorat-par-ensemble-universitaire/
     - https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-principaux-etablissements-enseignement-superieur/information/?disjunctive.type_d_etablissement
 
+
+# Salary
+Universities homogeneously distributed across the country. 
 
 <div align="center">
       <img height="400" src="images/univ_locations.png">
@@ -34,7 +37,7 @@ I analysed the aggregated datasets from governmental French website (https://www
       <img height="400" src="images/students_distribution.png">
 </div>
 
-# Salary
+
 It's not fair to compare Bachelors' and Masters' salaries after graduation inbetween each other, as Bachelor students would gain 2 years of experience by the time their mates would finish their Master program. However, it's worth noticing, that avarage salaries grow with each higher education step within each domain.
 
 <div align="center">
