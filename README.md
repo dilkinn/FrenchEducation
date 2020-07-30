@@ -66,7 +66,7 @@ Let's take an example of Science, Technology and Health domain and compare Bache
 | Job type      |   p-value            | Result         |
 |---------------|:--------------------:|----------------|
 | Any job       | 0.35 > 0.05          | Fail to reject |
-| Full-time job | $$2.62*10^{-5}$$ < 0.05| Reject         |
+| Full-time job |$$e=mc^2$$ $$2.62*10^{-5}$$ < 0.05| Reject         |
 
 Those results suggests, that whether there is no statistically signigicant difference in job placements for those students who found any kind of job, there is a difference for those who found full-time jobs. And it's indeed more chances to find full time job for a Bachelor diploma holder in Science, Technology and Health domain.
 
