@@ -27,29 +27,60 @@ I analysed the aggregated datasets from governmental French website (https://www
 
 
 # Salary
-Universities homogeneously distributed across the country. 
+Universities homogeneously distributed across the country.
 
 <div align="center">
-      <img height="400" src="images/univ_locations.png">
+    <img height="400" src="images/students_distribution.png">
 </div>
 
-<div align="center">
-      <img height="400" src="images/students_distribution.png">
-</div>
+Dots on the map above represent universities locations, whereas size of those dots correspond to number of students within each of the following domains in descending order:
 
+    1. Law, Economics and Management
+    2. Science, Technology and Health 
+    3. Social and Humanity Sciences
+    4. Teaching
+    5. Letters, Languages, Arts
+    
 
-It's not fair to compare Bachelors' and Masters' salaries after graduation inbetween each other, as Bachelor students would gain 2 years of experience by the time their mates would finish their Master program. However, it's worth noticing, that avarage salaries grow with each higher education step within each domain.
+It's not fair to compare Bachelors' against Masters' salaries straight after graduation, because Bachelor students would gain 2 years of experience by the time their mates would finish their Master program. However, it's worth noticing, that avarage salaries grow with each higher education step within each domain. Transparent and solid boxplots represent salaries one year and 3 years after graduation, respectively.
 
 <div align="center">
       <img height="400" src="images/salary.png">
 </div>
 
 # Job placement rates
+Let's have a look how job placement rates vary with each degree attained. Although average job placements are quite high, it seems that within each domain, mean values are rather decreasing.
+
 <div align="center">
       <img height="400" src="images/job_placement.png">
 </div>
 
-# Conclusion
-It seems that studying longer and attaining higher degrees in France don't have a straightforward impact on the job placement rates. And threre are reasons for that, for a person with little experience, employer will have to pay more, if that person holds higher degree. So if he has a choice between Bachelor and Master, he will rather take Bachelor.
+Let's check that hypothesis.
 
-High rank universities (top 20) have statistically higher job placement rates compare to all other universities. 
+# Hypothesis testing
+### 1st hypothesis
+My null hypothesis would be that **higher level of education achieved does not affect chances to get a job**. 
+
+Let's take an example of Science, Technology and Health domain and compare Bachelors and Masters graduates.
+
+| Job type      |   p-value            | Result         |
+|---------------|:--------------------:|----------------|
+| Any job       | 0.35 > 0.05          | Fail to reject |
+| Full-time job | $2.62*10^{-5}$ < 0.05| Reject         |
+
+Those results suggests, that whether there is no statistically signigicant difference in job placements for those students who found any kind of job, there is a difference for those who found full-time jobs. And it's indeed more chances to find full time job for a Bachelor diploma holder in Science, Technology and Health domain.
+
+### 2nd hypothesis
+My second question: is studying in high-rank universities affect chances to get a job? So my null hypothesis would be that **studying in high-rank universitites doesn't affect chances to get a job**.
+
+| Job type      |   p-value      | Result         |
+|---------------|:--------------:|----------------|
+| Any job       | p << 0.05      | Reject         |
+| Full-time job | p << 0.05.     | Reject         |
+
+The answer is yes, studying in one of top 20 universities increase graduates' chances to become employed.
+
+# Conclusion
+It seems that studying longer and attaining higher degrees in France don't have a straightforward impact on the job placement rates. And threre are reasons for that, for a person with little experience, employer will have to pay more, if that person holds higher degree. So if he has a choice between Bachelor and Master, he will rather take Bachelor. That could be one possible reason for the data I have explored. But there could be other.
+
+High-rank universities (top 20) have statistically higher job placement rates compare to all other universities. 
