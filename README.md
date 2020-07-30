@@ -1,5 +1,5 @@
 # FrenchEducation
-https://docs.google.com/presentation/d/1qUXvCXFNSqTpE3NqcwFbjx7wIy6GDwdDLWZ9zIetfSw/edit?pli=1#slide=id.g8ca29aa004_0_326
+https://docs.google.com/presentation/d/1qUXvCXFNSqTpE3NqcwFbjx7wIy6GDwdDLWZ9zIetfSw/edit?usp=sharing
 
 # Path to "CDI"
 CDI is an acronym for Contract Durée Indeterminée. In France, people love acronyms. This one is probably one of the most important ones. It stands for a lifetime contract. Being very attractive, so hard to attain. My intention, was to investigate French higher education system and its relation to the job placement rates within principal domains. And to see in what impact domain of study, university ranking, degree attended affects job placement rates.
@@ -18,7 +18,7 @@ There are two branches of higher education in France. First is European Universi
       <img height="300" src="images/schema-system.png">
 </div>
 
-I analysed the aggregated datasets from governmental French website (https://www.data.gouv.fr/), that summarise information gathered from students, that attain their degrees in public French universities within European University System. Data was collected after 12-18 months and 30-36 months after getting diploma: their job placement rates and salaries were collected. Datasets contain ~2000000 answers from about 60 universities accross France for 2010-2016 years range.
+I analysed the aggregated datasets from governmental French website (https://www.data.gouv.fr/), that summarise information gathered from students, that attain their degrees in public French universities within European University System. Data was collected after 12-18 months and 30-36 months after getting diploma: their job placement rates and salaries were collected. Datasets contain ~2000000 answers from about 60 universities accross France for 2010-2016 years range. As far, as these are aggregated data, weighting of values in respect with answers received are crucial to obtain correct estimations for hypothesis testing.
 
     - https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplomes-de-master-en-universites-et-etablissements-assimiles/
     - https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplome-e-s-de-licence-professionnelle-en-universites-et-etablissements-assimiles/
@@ -84,3 +84,9 @@ The answer is yes, studying in one of top 20 universities increase graduates' ch
 It seems that studying longer and attaining higher degrees in France don't have a straightforward impact on the job placement rates. And threre are reasons for that, for a person with little experience, employer will have to pay more, if that person holds higher degree. So if he has a choice between Bachelor and Master, he will rather take Bachelor. That could be one possible reason for the data I have explored. But there could be other.
 
 High-rank universities (top 20) have statistically higher job placement rates compare to all other universities. 
+
+### Further investigation
+
+1. Discipline wise salaries
+2. Comapre Bachelors salaries in 3 years with Masters in 1 year. Allows to compare correctly.
+3. Table with p-values for all domains/disciplines.
