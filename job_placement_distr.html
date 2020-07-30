@@ -1,0 +1,3084 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_72bd4b8748994f9389d11e377a657ded {
+                    position: relative;
+                    width: 400.0px;
+                    height: 400.0px;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_72bd4b8748994f9389d11e377a657ded" ></div>
+        
+</body>
+<script>    
+    
+            var map_72bd4b8748994f9389d11e377a657ded = L.map(
+                "map_72bd4b8748994f9389d11e377a657ded",
+                {
+                    center: [47.0, 2.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5.0,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_74cd383ff8fd4fffbac36680f4ec6cb9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+            var circle_90c6ca769c204f0cad1596a8ae80aa8f = L.circle(
+                [-20.9019, 55.4843],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_a314622ccaa84324a1cf9b7b59f7f48f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fd0b9f2f4e94bb2b54ebcba91199557 = $(`<div id="html_9fd0b9f2f4e94bb2b54ebcba91199557" style="width: 100.0%; height: 100.0%;">Université de La Réunion</div>`)[0];
+            popup_a314622ccaa84324a1cf9b7b59f7f48f.setContent(html_9fd0b9f2f4e94bb2b54ebcba91199557);
+        
+
+        circle_90c6ca769c204f0cad1596a8ae80aa8f.bindPopup(popup_a314622ccaa84324a1cf9b7b59f7f48f)
+        ;
+
+        
+    
+    
+            var circle_05a04db0848847149fc2544a0dd159dd = L.circle(
+                [42.6844, 2.89854],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_c1eac854586b463e9f8d572c93620a4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2e591ee7d5b48d6baca1b3142ae93df = $(`<div id="html_d2e591ee7d5b48d6baca1b3142ae93df" style="width: 100.0%; height: 100.0%;">Université de Perpignan - Via Domitia</div>`)[0];
+            popup_c1eac854586b463e9f8d572c93620a4f.setContent(html_d2e591ee7d5b48d6baca1b3142ae93df);
+        
+
+        circle_05a04db0848847149fc2544a0dd159dd.bindPopup(popup_c1eac854586b463e9f8d572c93620a4f)
+        ;
+
+        
+    
+    
+            var circle_b37d4d390688419ab5041995499275ec = L.circle(
+                [43.1369, 6.01684],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27150.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_9a4f000f2d2a4687bf818093e8f4a51e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_faf9fc2bd71c40a3a690edf94424e2a4 = $(`<div id="html_faf9fc2bd71c40a3a690edf94424e2a4" style="width: 100.0%; height: 100.0%;">Université de Toulon</div>`)[0];
+            popup_9a4f000f2d2a4687bf818093e8f4a51e.setContent(html_faf9fc2bd71c40a3a690edf94424e2a4);
+        
+
+        circle_b37d4d390688419ab5041995499275ec.bindPopup(popup_9a4f000f2d2a4687bf818093e8f4a51e)
+        ;
+
+        
+    
+    
+            var circle_e543843b2cb446eda1ed4b53a57c4725 = L.circle(
+                [43.2936, 5.35871],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_8515b5ba1c284b6c8eb9aec7d1bfcbe3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b55158f1126499890e7f97fc76994ca = $(`<div id="html_0b55158f1126499890e7f97fc76994ca" style="width: 100.0%; height: 100.0%;">Aix-Marseille Université</div>`)[0];
+            popup_8515b5ba1c284b6c8eb9aec7d1bfcbe3.setContent(html_0b55158f1126499890e7f97fc76994ca);
+        
+
+        circle_e543843b2cb446eda1ed4b53a57c4725.bindPopup(popup_8515b5ba1c284b6c8eb9aec7d1bfcbe3)
+        ;
+
+        
+    
+    
+            var circle_bf66fda08ac24914a8ecdd4f50c54ee2 = L.circle(
+                [43.3113, -0.363823],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26500.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_302277f36aa549ac9ff76f3750d17e4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd00a679903947c78ca436f230cd7a27 = $(`<div id="html_cd00a679903947c78ca436f230cd7a27" style="width: 100.0%; height: 100.0%;">Université de Pau et des Pays de l'Adour</div>`)[0];
+            popup_302277f36aa549ac9ff76f3750d17e4a.setContent(html_cd00a679903947c78ca436f230cd7a27);
+        
+
+        circle_bf66fda08ac24914a8ecdd4f50c54ee2.bindPopup(popup_302277f36aa549ac9ff76f3750d17e4a)
+        ;
+
+        
+    
+    
+            var circle_84e5efe751a64366b023b7d25a0cf71f = L.circle(
+                [43.5608, 1.46936],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25800.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_d465548a3e88452aa25e118c3d5e59a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4d09d16af594788a884d375096488dd = $(`<div id="html_f4d09d16af594788a884d375096488dd" style="width: 100.0%; height: 100.0%;">Université de Toulouse 3 - Paul Sabatier</div>`)[0];
+            popup_d465548a3e88452aa25e118c3d5e59a3.setContent(html_f4d09d16af594788a884d375096488dd);
+        
+
+        circle_84e5efe751a64366b023b7d25a0cf71f.bindPopup(popup_d465548a3e88452aa25e118c3d5e59a3)
+        ;
+
+        
+    
+    
+            var circle_4d52a47b961f494eac3774a573049f7b = L.circle(
+                [43.59848, 3.896874],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_14e0e30698794bab99a4d0c318da1f9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83bbd29217834262a9fcbb752330a8ec = $(`<div id="html_83bbd29217834262a9fcbb752330a8ec" style="width: 100.0%; height: 100.0%;">Université de Montpellier</div>`)[0];
+            popup_14e0e30698794bab99a4d0c318da1f9b.setContent(html_83bbd29217834262a9fcbb752330a8ec);
+        
+
+        circle_4d52a47b961f494eac3774a573049f7b.bindPopup(popup_14e0e30698794bab99a4d0c318da1f9b)
+        ;
+
+        
+    
+    
+            var circle_99c04542c2c7480a90047a4538fafef2 = L.circle(
+                [43.6063, 1.43552],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28050.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_db1fcee6341345a79c9c1207b4d423d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1877f915927246c984a372d5d1d0d8d6 = $(`<div id="html_1877f915927246c984a372d5d1d0d8d6" style="width: 100.0%; height: 100.0%;">Université Toulouse 1 - Capitole</div>`)[0];
+            popup_db1fcee6341345a79c9c1207b4d423d5.setContent(html_1877f915927246c984a372d5d1d0d8d6);
+        
+
+        circle_99c04542c2c7480a90047a4538fafef2.bindPopup(popup_db1fcee6341345a79c9c1207b4d423d5)
+        ;
+
+        
+    
+    
+            var circle_d3d03b3540b648bcac503551c3ad114b = L.circle(
+                [43.6326, 3.86938],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26550.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_2f20b0dbc9b34261bed5be89fb571f51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1ca6d074adf4bf1a26dac50edde399a = $(`<div id="html_b1ca6d074adf4bf1a26dac50edde399a" style="width: 100.0%; height: 100.0%;">Université Montpellier 3 - Paul-Valéry</div>`)[0];
+            popup_2f20b0dbc9b34261bed5be89fb571f51.setContent(html_b1ca6d074adf4bf1a26dac50edde399a);
+        
+
+        circle_d3d03b3540b648bcac503551c3ad114b.bindPopup(popup_2f20b0dbc9b34261bed5be89fb571f51)
+        ;
+
+        
+    
+    
+            var circle_04f2e38276604b829cdcb8bce4823177 = L.circle(
+                [44.809966, -0.596578],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27150.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_1900e6399ce04002b5474e06226762e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_910c5ffb8ba74acba8b7dfd6cceb78cc = $(`<div id="html_910c5ffb8ba74acba8b7dfd6cceb78cc" style="width: 100.0%; height: 100.0%;">Université de Bordeaux</div>`)[0];
+            popup_1900e6399ce04002b5474e06226762e8.setContent(html_910c5ffb8ba74acba8b7dfd6cceb78cc);
+        
+
+        circle_04f2e38276604b829cdcb8bce4823177.bindPopup(popup_1900e6399ce04002b5474e06226762e8)
+        ;
+
+        
+    
+    
+            var circle_6681a54789f346c481e3d3fdfeff98de = L.circle(
+                [45.4249, 4.39294],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27600.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_06bbda04ce5b4a48bb419cf5db7eea46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05ae69ab27654723b065ddd5bcd0b1e8 = $(`<div id="html_05ae69ab27654723b065ddd5bcd0b1e8" style="width: 100.0%; height: 100.0%;">Université Jean Monnet</div>`)[0];
+            popup_06bbda04ce5b4a48bb419cf5db7eea46.setContent(html_05ae69ab27654723b065ddd5bcd0b1e8);
+        
+
+        circle_6681a54789f346c481e3d3fdfeff98de.bindPopup(popup_06bbda04ce5b4a48bb419cf5db7eea46)
+        ;
+
+        
+    
+    
+            var circle_c277258067ea48b7a216a6bded5362e7 = L.circle(
+                [45.5668, 5.91765],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27150.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_2805ecce15ec4360800f85d0bb1c7d86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e47d6a180a8d4b709f4de038a9b2f200 = $(`<div id="html_e47d6a180a8d4b709f4de038a9b2f200" style="width: 100.0%; height: 100.0%;">Université Savoie Mont Blanc</div>`)[0];
+            popup_2805ecce15ec4360800f85d0bb1c7d86.setContent(html_e47d6a180a8d4b709f4de038a9b2f200);
+        
+
+        circle_c277258067ea48b7a216a6bded5362e7.bindPopup(popup_2805ecce15ec4360800f85d0bb1c7d86)
+        ;
+
+        
+    
+    
+            var circle_565fe40e32b04241af5a02b6c09dd80b = L.circle(
+                [45.747027, 4.860547],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26850.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_7223ff5346184ab28ea8c4a82a5209bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6281910a23646bfab591840642c4096 = $(`<div id="html_e6281910a23646bfab591840642c4096" style="width: 100.0%; height: 100.0%;">Université Jean Moulin - Lyon 3</div>`)[0];
+            popup_7223ff5346184ab28ea8c4a82a5209bd.setContent(html_e6281910a23646bfab591840642c4096);
+        
+
+        circle_565fe40e32b04241af5a02b6c09dd80b.bindPopup(popup_7223ff5346184ab28ea8c4a82a5209bd)
+        ;
+
+        
+    
+    
+            var circle_f21f1e29d33144a89731c80f0fd9b7cb = L.circle(
+                [45.7492, 4.83714],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28350.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_a34528a4a14740cf87699b0456e31b5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04de34e8a2c2478f9d0a36feaa157ad4 = $(`<div id="html_04de34e8a2c2478f9d0a36feaa157ad4" style="width: 100.0%; height: 100.0%;">Université Lumière - Lyon 2</div>`)[0];
+            popup_a34528a4a14740cf87699b0456e31b5e.setContent(html_04de34e8a2c2478f9d0a36feaa157ad4);
+        
+
+        circle_f21f1e29d33144a89731c80f0fd9b7cb.bindPopup(popup_a34528a4a14740cf87699b0456e31b5e)
+        ;
+
+        
+    
+    
+            var circle_991f7557c61f4439b79189451d71e200 = L.circle(
+                [45.770548, 3.087722],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27060.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_a1e6d199acd84c0cbae065d80190220d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8362d1a06a254fe391f32d99b559077f = $(`<div id="html_8362d1a06a254fe391f32d99b559077f" style="width: 100.0%; height: 100.0%;">Université Clermont Auvergne</div>`)[0];
+            popup_a1e6d199acd84c0cbae065d80190220d.setContent(html_8362d1a06a254fe391f32d99b559077f);
+        
+
+        circle_991f7557c61f4439b79189451d71e200.bindPopup(popup_a1e6d199acd84c0cbae065d80190220d)
+        ;
+
+        
+    
+    
+            var circle_565a83ad680946de8026d147f07adc81 = L.circle(
+                [46.1482, -1.15506],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_655656ca8ebf4bd4b55b0767e5891475 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_454f362a73cd424b8e7a73d537811183 = $(`<div id="html_454f362a73cd424b8e7a73d537811183" style="width: 100.0%; height: 100.0%;">La Rochelle Université</div>`)[0];
+            popup_655656ca8ebf4bd4b55b0767e5891475.setContent(html_454f362a73cd424b8e7a73d537811183);
+        
+
+        circle_565a83ad680946de8026d147f07adc81.bindPopup(popup_655656ca8ebf4bd4b55b0767e5891475)
+        ;
+
+        
+    
+    
+            var circle_2eca6f27bf39475ca7b39827a3af94be = L.circle(
+                [46.5861, 0.346654],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27800.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_d00d71ea7bcd46558ecf79aa2bdb496e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_370f49ffa9fb440882f35881a273842b = $(`<div id="html_370f49ffa9fb440882f35881a273842b" style="width: 100.0%; height: 100.0%;">Université de Poitiers</div>`)[0];
+            popup_d00d71ea7bcd46558ecf79aa2bdb496e.setContent(html_370f49ffa9fb440882f35881a273842b);
+        
+
+        circle_2eca6f27bf39475ca7b39827a3af94be.bindPopup(popup_d00d71ea7bcd46558ecf79aa2bdb496e)
+        ;
+
+        
+    
+    
+            var circle_96053e7fe1f0468a89afd96af5f864b3 = L.circle(
+                [47.2097, -1.55587],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27600.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_149d00b2e66f4bb2a13daf116913f10a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_473d650248d0434daf25c2e0b3fa944e = $(`<div id="html_473d650248d0434daf25c2e0b3fa944e" style="width: 100.0%; height: 100.0%;">Université de Nantes</div>`)[0];
+            popup_149d00b2e66f4bb2a13daf116913f10a.setContent(html_473d650248d0434daf25c2e0b3fa944e);
+        
+
+        circle_96053e7fe1f0468a89afd96af5f864b3.bindPopup(popup_149d00b2e66f4bb2a13daf116913f10a)
+        ;
+
+        
+    
+    
+            var circle_da02769c3e4e40638cc491d4315f050e = L.circle(
+                [47.2408, 6.02265],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_7b1d18dcfd4b4d2ea91eb3ccb88fc710 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a73a7120e474bfd86aea19f23369c93 = $(`<div id="html_4a73a7120e474bfd86aea19f23369c93" style="width: 100.0%; height: 100.0%;">Université de Franche-Comté</div>`)[0];
+            popup_7b1d18dcfd4b4d2ea91eb3ccb88fc710.setContent(html_4a73a7120e474bfd86aea19f23369c93);
+        
+
+        circle_da02769c3e4e40638cc491d4315f050e.bindPopup(popup_7b1d18dcfd4b4d2ea91eb3ccb88fc710)
+        ;
+
+        
+    
+    
+            var circle_422fe0b0a3c94b99a91f68a2c039c376 = L.circle(
+                [47.312807, 5.066372],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27600.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_abb6f0dcb43245ed884d54b8a4ab29b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbdbc5b9829f4249983533e341337842 = $(`<div id="html_dbdbc5b9829f4249983533e341337842" style="width: 100.0%; height: 100.0%;">Université de Bourgogne</div>`)[0];
+            popup_abb6f0dcb43245ed884d54b8a4ab29b5.setContent(html_dbdbc5b9829f4249983533e341337842);
+        
+
+        circle_422fe0b0a3c94b99a91f68a2c039c376.bindPopup(popup_abb6f0dcb43245ed884d54b8a4ab29b5)
+        ;
+
+        
+    
+    
+            var circle_62470611fc214d18924fe6365a10318c = L.circle(
+                [47.3837, 0.672511],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27900.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_41b3d55f687c4802807587df28f05a0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c11aa765c8f49398bcaa21e9a0c149d = $(`<div id="html_6c11aa765c8f49398bcaa21e9a0c149d" style="width: 100.0%; height: 100.0%;">Université de Tours</div>`)[0];
+            popup_41b3d55f687c4802807587df28f05a0b.setContent(html_6c11aa765c8f49398bcaa21e9a0c149d);
+        
+
+        circle_62470611fc214d18924fe6365a10318c.bindPopup(popup_41b3d55f687c4802807587df28f05a0b)
+        ;
+
+        
+    
+    
+            var circle_f386612b1b4a457b95c8a3fb81dcd359 = L.circle(
+                [47.478, -0.548273],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27150.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_b987f4baa3db4c25b8ce2a417c7dd663 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6e320e12a714141867cd833d1062677 = $(`<div id="html_a6e320e12a714141867cd833d1062677" style="width: 100.0%; height: 100.0%;">Université d'Angers</div>`)[0];
+            popup_b987f4baa3db4c25b8ce2a417c7dd663.setContent(html_a6e320e12a714141867cd833d1062677);
+        
+
+        circle_f386612b1b4a457b95c8a3fb81dcd359.bindPopup(popup_b987f4baa3db4c25b8ce2a417c7dd663)
+        ;
+
+        
+    
+    
+            var circle_e04316aff21943c387d723d6777dead5 = L.circle(
+                [47.7323, 7.31485],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27750.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_46851130ade740dc91ba66de23e33106 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50c10e82cb1c461c910e0690a71b8cef = $(`<div id="html_50c10e82cb1c461c910e0690a71b8cef" style="width: 100.0%; height: 100.0%;">Université de Haute-Alsace</div>`)[0];
+            popup_46851130ade740dc91ba66de23e33106.setContent(html_50c10e82cb1c461c910e0690a71b8cef);
+        
+
+        circle_e04316aff21943c387d723d6777dead5.bindPopup(popup_46851130ade740dc91ba66de23e33106)
+        ;
+
+        
+    
+    
+            var circle_bc6917c1b61548ab904b454cc4ccb8b7 = L.circle(
+                [47.7461, -3.39083],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27750.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_af0a473b3cb040e6abbf8e4a4587ebb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0482fe5021e94c81920a2b25c6b41a63 = $(`<div id="html_0482fe5021e94c81920a2b25c6b41a63" style="width: 100.0%; height: 100.0%;">Université de Bretagne-Sud</div>`)[0];
+            popup_af0a473b3cb040e6abbf8e4a4587ebb1.setContent(html_0482fe5021e94c81920a2b25c6b41a63);
+        
+
+        circle_bc6917c1b61548ab904b454cc4ccb8b7.bindPopup(popup_af0a473b3cb040e6abbf8e4a4587ebb1)
+        ;
+
+        
+    
+    
+            var circle_54c9d22290b14ef780ddb04e0a1e2548 = L.circle(
+                [47.8502, 1.93351],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28200.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_98dc9fb361e345d6a514c588c624885b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bad84bea533e4924ab5cffa9fde1cc7e = $(`<div id="html_bad84bea533e4924ab5cffa9fde1cc7e" style="width: 100.0%; height: 100.0%;">Université d'Orléans</div>`)[0];
+            popup_98dc9fb361e345d6a514c588c624885b.setContent(html_bad84bea533e4924ab5cffa9fde1cc7e);
+        
+
+        circle_54c9d22290b14ef780ddb04e0a1e2548.bindPopup(popup_98dc9fb361e345d6a514c588c624885b)
+        ;
+
+        
+    
+    
+            var circle_a5bde1df1c014aeebf72c2fdcc777552 = L.circle(
+                [48.0148, 0.159251],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25050.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_f22c72d558f54e0ebd239fa18e1106b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0173d1fbf11040b180977c629f60db12 = $(`<div id="html_0173d1fbf11040b180977c629f60db12" style="width: 100.0%; height: 100.0%;">Le Mans Université</div>`)[0];
+            popup_f22c72d558f54e0ebd239fa18e1106b0.setContent(html_0173d1fbf11040b180977c629f60db12);
+        
+
+        circle_a5bde1df1c014aeebf72c2fdcc777552.bindPopup(popup_f22c72d558f54e0ebd239fa18e1106b0)
+        ;
+
+        
+    
+    
+            var circle_7dc7ca835d6546718ec2c1c774066e0a = L.circle(
+                [48.1157, -1.67381],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26325.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_1f6cffe0e1a2458c9bffee6102110443 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59f8c97da9c74f28b3b16a1bd00f9647 = $(`<div id="html_59f8c97da9c74f28b3b16a1bd00f9647" style="width: 100.0%; height: 100.0%;">Université de Rennes 1</div>`)[0];
+            popup_1f6cffe0e1a2458c9bffee6102110443.setContent(html_59f8c97da9c74f28b3b16a1bd00f9647);
+        
+
+        circle_7dc7ca835d6546718ec2c1c774066e0a.bindPopup(popup_1f6cffe0e1a2458c9bffee6102110443)
+        ;
+
+        
+    
+    
+            var circle_d5cdd642e62d44c784d4e522598a9454 = L.circle(
+                [48.3983, -4.50774],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_46cf1c4c3dd042adb21cc212befbd3d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63e0fb4048274e98a003f90e7edc6cd0 = $(`<div id="html_63e0fb4048274e98a003f90e7edc6cd0" style="width: 100.0%; height: 100.0%;">Université de Bretagne Occidentale</div>`)[0];
+            popup_46cf1c4c3dd042adb21cc212befbd3d1.setContent(html_63e0fb4048274e98a003f90e7edc6cd0);
+        
+
+        circle_d5cdd642e62d44c784d4e522598a9454.bindPopup(popup_46cf1c4c3dd042adb21cc212befbd3d1)
+        ;
+
+        
+    
+    
+            var circle_96ca426cb7fa46cd9d3fdae736bcb8d7 = L.circle(
+                [48.579, 7.7663],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_1db349851b364c36ad9a71cbfa9d23f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_131b228257fd4b81ac838c17016059dd = $(`<div id="html_131b228257fd4b81ac838c17016059dd" style="width: 100.0%; height: 100.0%;">Université de Strasbourg</div>`)[0];
+            popup_1db349851b364c36ad9a71cbfa9d23f6.setContent(html_131b228257fd4b81ac838c17016059dd);
+        
+
+        circle_96ca426cb7fa46cd9d3fdae736bcb8d7.bindPopup(popup_1db349851b364c36ad9a71cbfa9d23f6)
+        ;
+
+        
+    
+    
+            var circle_0d50f173c3964a8492dd4f39ad64f03d = L.circle(
+                [48.6249, 2.42643],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_aa17729ad7de4e6ea3dd2f546fe0e5d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af2ab9d429364f12a3c4b4892373e661 = $(`<div id="html_af2ab9d429364f12a3c4b4892373e661" style="width: 100.0%; height: 100.0%;">Université d'Évry-Val d'Essonne</div>`)[0];
+            popup_aa17729ad7de4e6ea3dd2f546fe0e5d7.setContent(html_af2ab9d429364f12a3c4b4892373e661);
+        
+
+        circle_0d50f173c3964a8492dd4f39ad64f03d.bindPopup(popup_aa17729ad7de4e6ea3dd2f546fe0e5d7)
+        ;
+
+        
+    
+    
+            var circle_a3981dac5a17491ab916722f59e0129c = L.circle(
+                [48.6962, 6.17634],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27525.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_559fae35b7344bfcb858298d7a354947 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_302af40925ad456e9d8671f00206d56b = $(`<div id="html_302af40925ad456e9d8671f00206d56b" style="width: 100.0%; height: 100.0%;">Université de Lorraine</div>`)[0];
+            popup_559fae35b7344bfcb858298d7a354947.setContent(html_302af40925ad456e9d8671f00206d56b);
+        
+
+        circle_a3981dac5a17491ab916722f59e0129c.bindPopup(popup_559fae35b7344bfcb858298d7a354947)
+        ;
+
+        
+    
+    
+            var circle_73d208b3b6494425a9174cdd489b4d45 = L.circle(
+                [48.7888, 2.44239],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27480.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_b92fc730dc0d46d38c6f19e1cec21814 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e385432143b7400aac67b59c1614cee3 = $(`<div id="html_e385432143b7400aac67b59c1614cee3" style="width: 100.0%; height: 100.0%;">Université Paris-Est Créteil Val-de-Marne</div>`)[0];
+            popup_b92fc730dc0d46d38c6f19e1cec21814.setContent(html_e385432143b7400aac67b59c1614cee3);
+        
+
+        circle_73d208b3b6494425a9174cdd489b4d45.bindPopup(popup_b92fc730dc0d46d38c6f19e1cec21814)
+        ;
+
+        
+    
+    
+            var circle_f01ae92cf6a142e69a3c5fefd1dbbc57 = L.circle(
+                [48.8468, 2.34488],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28900.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_9b7527e1d4c04c84a5213391bca8226a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e4fa5e725c640b3ad9b6054f953793f = $(`<div id="html_3e4fa5e725c640b3ad9b6054f953793f" style="width: 100.0%; height: 100.0%;">Université Panthéon-Assas</div>`)[0];
+            popup_9b7527e1d4c04c84a5213391bca8226a.setContent(html_3e4fa5e725c640b3ad9b6054f953793f);
+        
+
+        circle_f01ae92cf6a142e69a3c5fefd1dbbc57.bindPopup(popup_9b7527e1d4c04c84a5213391bca8226a)
+        ;
+
+        
+    
+    
+            var circle_306125303efc4c13887341ee870a9d8c = L.circle(
+                [48.8468, 2.34488],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28080.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_665f278aba914c56acdd0c04f5478172 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6842087f59d14fa7ba1f88537bb14bab = $(`<div id="html_6842087f59d14fa7ba1f88537bb14bab" style="width: 100.0%; height: 100.0%;">Université Paris 1 - Panthéon Sorbonne</div>`)[0];
+            popup_665f278aba914c56acdd0c04f5478172.setContent(html_6842087f59d14fa7ba1f88537bb14bab);
+        
+
+        circle_306125303efc4c13887341ee870a9d8c.bindPopup(popup_665f278aba914c56acdd0c04f5478172)
+        ;
+
+        
+    
+    
+            var circle_9629b71ae1bc41e19e3ccbb9b6bd8a54 = L.circle(
+                [48.9035, 2.21448],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26850.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_e289ac8b01f84048ac0a8b20778b8565 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_769cc3f394074b5ba5b411e8e1d23a21 = $(`<div id="html_769cc3f394074b5ba5b411e8e1d23a21" style="width: 100.0%; height: 100.0%;">Université Paris Nanterre</div>`)[0];
+            popup_e289ac8b01f84048ac0a8b20778b8565.setContent(html_769cc3f394074b5ba5b411e8e1d23a21);
+        
+
+        circle_9629b71ae1bc41e19e3ccbb9b6bd8a54.bindPopup(popup_e289ac8b01f84048ac0a8b20778b8565)
+        ;
+
+        
+    
+    
+            var circle_564105c0804841478e135a780ad4f0ee = L.circle(
+                [48.946, 2.36213],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_7fc1068941f8478bb65907031d94926a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea461e80ed0b44e4a8d2e58124e6c0d1 = $(`<div id="html_ea461e80ed0b44e4a8d2e58124e6c0d1" style="width: 100.0%; height: 100.0%;">Université Paris 8 - Vincennes - Saint-Denis</div>`)[0];
+            popup_7fc1068941f8478bb65907031d94926a.setContent(html_ea461e80ed0b44e4a8d2e58124e6c0d1);
+        
+
+        circle_564105c0804841478e135a780ad4f0ee.bindPopup(popup_7fc1068941f8478bb65907031d94926a)
+        ;
+
+        
+    
+    
+            var circle_7a1be9534297424087a868c1e6505203 = L.circle(
+                [49.1887, -0.363108],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28200.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_bba1275858444ce5bcab4ae7d8f64dd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7c3770d554b48ad808ce35fa1f87a8e = $(`<div id="html_a7c3770d554b48ad808ce35fa1f87a8e" style="width: 100.0%; height: 100.0%;">Université de Caen Normandie</div>`)[0];
+            popup_bba1275858444ce5bcab4ae7d8f64dd6.setContent(html_a7c3770d554b48ad808ce35fa1f87a8e);
+        
+
+        circle_7a1be9534297424087a868c1e6505203.bindPopup(popup_bba1275858444ce5bcab4ae7d8f64dd6)
+        ;
+
+        
+    
+    
+            var circle_d29ca06b4e1d4fbd90c52236f8e99bfd = L.circle(
+                [49.2558, 4.0402],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_722153d5b3fd4d2186fec1b49bb7359a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be7da886df6c47aeaa57c2fb04b2a6f4 = $(`<div id="html_be7da886df6c47aeaa57c2fb04b2a6f4" style="width: 100.0%; height: 100.0%;">Université de Reims Champagne-Ardenne</div>`)[0];
+            popup_722153d5b3fd4d2186fec1b49bb7359a.setContent(html_be7da886df6c47aeaa57c2fb04b2a6f4);
+        
+
+        circle_d29ca06b4e1d4fbd90c52236f8e99bfd.bindPopup(popup_722153d5b3fd4d2186fec1b49bb7359a)
+        ;
+
+        
+    
+    
+            var circle_3eac9510fac544ed8ef4fb986d66bd0d = L.circle(
+                [49.4583, 1.06895],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_dba7390729c24635ac3cf3b50e15db99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87fb1d5ded194ae3975de60675a94a38 = $(`<div id="html_87fb1d5ded194ae3975de60675a94a38" style="width: 100.0%; height: 100.0%;">Université de Rouen</div>`)[0];
+            popup_dba7390729c24635ac3cf3b50e15db99.setContent(html_87fb1d5ded194ae3975de60675a94a38);
+        
+
+        circle_3eac9510fac544ed8ef4fb986d66bd0d.bindPopup(popup_dba7390729c24635ac3cf3b50e15db99)
+        ;
+
+        
+    
+    
+            var circle_37cac60933064d8ab8acf74642e039f3 = L.circle(
+                [49.4959, 0.129114],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25050.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_d804072fc9ff493fa85c8ca4bbc3ab66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2918be29fc49437da307fe52d88758f3 = $(`<div id="html_2918be29fc49437da307fe52d88758f3" style="width: 100.0%; height: 100.0%;">Université Le Havre Normandie</div>`)[0];
+            popup_d804072fc9ff493fa85c8ca4bbc3ab66.setContent(html_2918be29fc49437da307fe52d88758f3);
+        
+
+        circle_37cac60933064d8ab8acf74642e039f3.bindPopup(popup_d804072fc9ff493fa85c8ca4bbc3ab66)
+        ;
+
+        
+    
+    
+            var circle_cf6779d9ed5e4800898f445d5194818e = L.circle(
+                [49.8743, 2.26417],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_2ba020176c694aeaa20543c92abc72d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_744ad49b7dcb4a0b97cab997eae7fe76 = $(`<div id="html_744ad49b7dcb4a0b97cab997eae7fe76" style="width: 100.0%; height: 100.0%;">Université de Picardie Jules-Verne</div>`)[0];
+            popup_2ba020176c694aeaa20543c92abc72d7.setContent(html_744ad49b7dcb4a0b97cab997eae7fe76);
+        
+
+        circle_cf6779d9ed5e4800898f445d5194818e.bindPopup(popup_2ba020176c694aeaa20543c92abc72d7)
+        ;
+
+        
+    
+    
+            var circle_e6ae936d94c34579a98bc2e37442e487 = L.circle(
+                [50.2849, 2.79104],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_6542ca2a9461468db89e06688871beea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a624ecd61e384405abc7ad47ec53e172 = $(`<div id="html_a624ecd61e384405abc7ad47ec53e172" style="width: 100.0%; height: 100.0%;">Université d'Artois</div>`)[0];
+            popup_6542ca2a9461468db89e06688871beea.setContent(html_a624ecd61e384405abc7ad47ec53e172);
+        
+
+        circle_e6ae936d94c34579a98bc2e37442e487.bindPopup(popup_6542ca2a9461468db89e06688871beea)
+        ;
+
+        
+    
+    
+            var circle_3c48db04f9584fa684a2b1ec7c5eb72b = L.circle(
+                [50.6314, 3.07497],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27375.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_0f37802944e04c85a193b72c61e9b5cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c03c15606aa4f3cb1165ed878e5451b = $(`<div id="html_4c03c15606aa4f3cb1165ed878e5451b" style="width: 100.0%; height: 100.0%;">Université de Lille</div>`)[0];
+            popup_0f37802944e04c85a193b72c61e9b5cf.setContent(html_4c03c15606aa4f3cb1165ed878e5451b);
+        
+
+        circle_3c48db04f9584fa684a2b1ec7c5eb72b.bindPopup(popup_0f37802944e04c85a193b72c61e9b5cf)
+        ;
+
+        
+    
+    
+            var circle_a7962859ca9143a6b1da77d9deab7520 = L.circle(
+                [51.0391, 2.37216],
+                {"bubblingMouseEvents": true, "color": "darkorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkorange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_b5b63b72f0174bdabe8672037fdc4007 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d991135594de4c81b5edb457be7b53f9 = $(`<div id="html_d991135594de4c81b5edb457be7b53f9" style="width: 100.0%; height: 100.0%;">Université du Littoral Côte d'Opale</div>`)[0];
+            popup_b5b63b72f0174bdabe8672037fdc4007.setContent(html_d991135594de4c81b5edb457be7b53f9);
+        
+
+        circle_a7962859ca9143a6b1da77d9deab7520.bindPopup(popup_b5b63b72f0174bdabe8672037fdc4007)
+        ;
+
+        
+    
+    
+            var circle_428fee9f129d41d38392243c52e255d2 = L.circle(
+                [43.2936, 5.35871],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26650.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_1fd2c3d1fe2942449d06a24c4d11ad9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28db00b299714e5386b91121f001e7b8 = $(`<div id="html_28db00b299714e5386b91121f001e7b8" style="width: 100.0%; height: 100.0%;">Aix-Marseille Université</div>`)[0];
+            popup_1fd2c3d1fe2942449d06a24c4d11ad9d.setContent(html_28db00b299714e5386b91121f001e7b8);
+        
+
+        circle_428fee9f129d41d38392243c52e255d2.bindPopup(popup_1fd2c3d1fe2942449d06a24c4d11ad9d)
+        ;
+
+        
+    
+    
+            var circle_126e5194d480429e99033200259d93ed = L.circle(
+                [43.3113, -0.363823],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_e2659cb08c3f4b7db48c1d7b9c87f1f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60be0071a72a4c32abab86cd1aeac097 = $(`<div id="html_60be0071a72a4c32abab86cd1aeac097" style="width: 100.0%; height: 100.0%;">Université de Pau et des Pays de l'Adour</div>`)[0];
+            popup_e2659cb08c3f4b7db48c1d7b9c87f1f5.setContent(html_60be0071a72a4c32abab86cd1aeac097);
+        
+
+        circle_126e5194d480429e99033200259d93ed.bindPopup(popup_e2659cb08c3f4b7db48c1d7b9c87f1f5)
+        ;
+
+        
+    
+    
+            var circle_d07a2cc178614df4bd1a69137e6896fb = L.circle(
+                [43.5608, 1.46936],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27480.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_2a3128e8a0894de4be699e9215415f47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4684fb37a3044289cea0723e9176c25 = $(`<div id="html_b4684fb37a3044289cea0723e9176c25" style="width: 100.0%; height: 100.0%;">Université de Toulouse 3 - Paul Sabatier</div>`)[0];
+            popup_2a3128e8a0894de4be699e9215415f47.setContent(html_b4684fb37a3044289cea0723e9176c25);
+        
+
+        circle_d07a2cc178614df4bd1a69137e6896fb.bindPopup(popup_2a3128e8a0894de4be699e9215415f47)
+        ;
+
+        
+    
+    
+            var circle_fa7fe99f1cd24fa7ad72ac762cfc7ecb = L.circle(
+                [43.59848, 3.896874],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_63467019e4534f288b11875cfae6009e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55a63d251c124b289250609b9e6072e5 = $(`<div id="html_55a63d251c124b289250609b9e6072e5" style="width: 100.0%; height: 100.0%;">Université de Montpellier</div>`)[0];
+            popup_63467019e4534f288b11875cfae6009e.setContent(html_55a63d251c124b289250609b9e6072e5);
+        
+
+        circle_fa7fe99f1cd24fa7ad72ac762cfc7ecb.bindPopup(popup_63467019e4534f288b11875cfae6009e)
+        ;
+
+        
+    
+    
+            var circle_bf416a7fa0564b23bf7c5f71b13be98c = L.circle(
+                [43.6063, 1.43552],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_1930141f1d9a4970a72cbb49920ccf61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b95230e854e4485982544662b061036 = $(`<div id="html_0b95230e854e4485982544662b061036" style="width: 100.0%; height: 100.0%;">Université Toulouse 1 - Capitole</div>`)[0];
+            popup_1930141f1d9a4970a72cbb49920ccf61.setContent(html_0b95230e854e4485982544662b061036);
+        
+
+        circle_bf416a7fa0564b23bf7c5f71b13be98c.bindPopup(popup_1930141f1d9a4970a72cbb49920ccf61)
+        ;
+
+        
+    
+    
+            var circle_54601843e63146a99adc2c05f6a30707 = L.circle(
+                [43.9496, 4.81774],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_fb6b32786f40417495985f5ca9899450 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bddb20814d3344aebcf5132065a9491f = $(`<div id="html_bddb20814d3344aebcf5132065a9491f" style="width: 100.0%; height: 100.0%;">Avignon Université</div>`)[0];
+            popup_fb6b32786f40417495985f5ca9899450.setContent(html_bddb20814d3344aebcf5132065a9491f);
+        
+
+        circle_54601843e63146a99adc2c05f6a30707.bindPopup(popup_fb6b32786f40417495985f5ca9899450)
+        ;
+
+        
+    
+    
+            var circle_b2fcf0d4d1dc44c68956c1121c3a96db = L.circle(
+                [44.809966, -0.596578],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27150.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_612af68fb405406288975da2f2378839 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4d26ea00c544f9d890190bf976f3828 = $(`<div id="html_c4d26ea00c544f9d890190bf976f3828" style="width: 100.0%; height: 100.0%;">Université de Bordeaux</div>`)[0];
+            popup_612af68fb405406288975da2f2378839.setContent(html_c4d26ea00c544f9d890190bf976f3828);
+        
+
+        circle_b2fcf0d4d1dc44c68956c1121c3a96db.bindPopup(popup_612af68fb405406288975da2f2378839)
+        ;
+
+        
+    
+    
+            var circle_a97bdee5a9a445789ffd09ff953e3265 = L.circle(
+                [45.5668, 5.91765],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27600.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_54112c26bc734c0b95c41d441cd5e45e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_695d2ec822fc4d6498a9d3c586329134 = $(`<div id="html_695d2ec822fc4d6498a9d3c586329134" style="width: 100.0%; height: 100.0%;">Université Savoie Mont Blanc</div>`)[0];
+            popup_54112c26bc734c0b95c41d441cd5e45e.setContent(html_695d2ec822fc4d6498a9d3c586329134);
+        
+
+        circle_a97bdee5a9a445789ffd09ff953e3265.bindPopup(popup_54112c26bc734c0b95c41d441cd5e45e)
+        ;
+
+        
+    
+    
+            var circle_428dd0b1087b454393883f8ac02d8cc1 = L.circle(
+                [45.7492, 4.83714],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_c35750327d464f00b2951d6a6db79c99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e41f68dc85c48c58e180578aeebcc33 = $(`<div id="html_0e41f68dc85c48c58e180578aeebcc33" style="width: 100.0%; height: 100.0%;">Université Lumière - Lyon 2</div>`)[0];
+            popup_c35750327d464f00b2951d6a6db79c99.setContent(html_0e41f68dc85c48c58e180578aeebcc33);
+        
+
+        circle_428dd0b1087b454393883f8ac02d8cc1.bindPopup(popup_c35750327d464f00b2951d6a6db79c99)
+        ;
+
+        
+    
+    
+            var circle_bbe0e1822ceb4fe3a42e113a9a78580f = L.circle(
+                [45.770548, 3.087722],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25950.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_f0d6c3c12a224e789a4b6b4c8d49f8b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0a318ef536c441cb03483147d6049fc = $(`<div id="html_e0a318ef536c441cb03483147d6049fc" style="width: 100.0%; height: 100.0%;">Université Clermont Auvergne</div>`)[0];
+            popup_f0d6c3c12a224e789a4b6b4c8d49f8b5.setContent(html_e0a318ef536c441cb03483147d6049fc);
+        
+
+        circle_bbe0e1822ceb4fe3a42e113a9a78580f.bindPopup(popup_f0d6c3c12a224e789a4b6b4c8d49f8b5)
+        ;
+
+        
+    
+    
+            var circle_74f93047e7584d54aac19d63f0210d78 = L.circle(
+                [45.782, 4.86651],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26475.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_139a5d7df18846c4809826a1338b4035 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd9569aa8fbd46a9862a2a05cde6faa5 = $(`<div id="html_bd9569aa8fbd46a9862a2a05cde6faa5" style="width: 100.0%; height: 100.0%;">Université Claude Bernard - Lyon 1</div>`)[0];
+            popup_139a5d7df18846c4809826a1338b4035.setContent(html_bd9569aa8fbd46a9862a2a05cde6faa5);
+        
+
+        circle_74f93047e7584d54aac19d63f0210d78.bindPopup(popup_139a5d7df18846c4809826a1338b4035)
+        ;
+
+        
+    
+    
+            var circle_8255f442eff244a3b492e2fb80c26126 = L.circle(
+                [46.1482, -1.15506],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_a819e4c23e69475bb8da4a36ddc93cce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09b4630a7d444b459e57a189fc6c1cc4 = $(`<div id="html_09b4630a7d444b459e57a189fc6c1cc4" style="width: 100.0%; height: 100.0%;">La Rochelle Université</div>`)[0];
+            popup_a819e4c23e69475bb8da4a36ddc93cce.setContent(html_09b4630a7d444b459e57a189fc6c1cc4);
+        
+
+        circle_8255f442eff244a3b492e2fb80c26126.bindPopup(popup_a819e4c23e69475bb8da4a36ddc93cce)
+        ;
+
+        
+    
+    
+            var circle_91b74d1213364e3ebb5965a53a6a081a = L.circle(
+                [46.5861, 0.346654],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_06b552ceead9467ca8883f12432e067b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58664b6af6a349918534857f8b9bf0a2 = $(`<div id="html_58664b6af6a349918534857f8b9bf0a2" style="width: 100.0%; height: 100.0%;">Université de Poitiers</div>`)[0];
+            popup_06b552ceead9467ca8883f12432e067b.setContent(html_58664b6af6a349918534857f8b9bf0a2);
+        
+
+        circle_91b74d1213364e3ebb5965a53a6a081a.bindPopup(popup_06b552ceead9467ca8883f12432e067b)
+        ;
+
+        
+    
+    
+            var circle_9aaa1a390d9545b7ae0fe1f064d8f883 = L.circle(
+                [47.2097, -1.55587],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27900.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_d4a406b86d4d41f599198e564ba8b200 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cd2182748fd4974b7eb2b6fed5770b6 = $(`<div id="html_9cd2182748fd4974b7eb2b6fed5770b6" style="width: 100.0%; height: 100.0%;">Université de Nantes</div>`)[0];
+            popup_d4a406b86d4d41f599198e564ba8b200.setContent(html_9cd2182748fd4974b7eb2b6fed5770b6);
+        
+
+        circle_9aaa1a390d9545b7ae0fe1f064d8f883.bindPopup(popup_d4a406b86d4d41f599198e564ba8b200)
+        ;
+
+        
+    
+    
+            var circle_b932ad85bf01496093da118891d0757a = L.circle(
+                [47.2408, 6.02265],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_5d2687bb72f14df3b89b50e24875672c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8831005a1bec49868113c0d2e2d196d0 = $(`<div id="html_8831005a1bec49868113c0d2e2d196d0" style="width: 100.0%; height: 100.0%;">Université de Franche-Comté</div>`)[0];
+            popup_5d2687bb72f14df3b89b50e24875672c.setContent(html_8831005a1bec49868113c0d2e2d196d0);
+        
+
+        circle_b932ad85bf01496093da118891d0757a.bindPopup(popup_5d2687bb72f14df3b89b50e24875672c)
+        ;
+
+        
+    
+    
+            var circle_2400f50435f44a6ab7a22ddc8a77c4f6 = L.circle(
+                [47.312807, 5.066372],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_a27c4690a8c34a128617f9637e245972 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd1beb25ed7c46eda57e0f4edb755de2 = $(`<div id="html_cd1beb25ed7c46eda57e0f4edb755de2" style="width: 100.0%; height: 100.0%;">Université de Bourgogne</div>`)[0];
+            popup_a27c4690a8c34a128617f9637e245972.setContent(html_cd1beb25ed7c46eda57e0f4edb755de2);
+        
+
+        circle_2400f50435f44a6ab7a22ddc8a77c4f6.bindPopup(popup_a27c4690a8c34a128617f9637e245972)
+        ;
+
+        
+    
+    
+            var circle_fdba450989534144af4aadf93c23e1c9 = L.circle(
+                [47.3837, 0.672511],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27500.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_d66206813b81461484a4ee204a139a94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49b77ab91c704d689c3117770e2de433 = $(`<div id="html_49b77ab91c704d689c3117770e2de433" style="width: 100.0%; height: 100.0%;">Université de Tours</div>`)[0];
+            popup_d66206813b81461484a4ee204a139a94.setContent(html_49b77ab91c704d689c3117770e2de433);
+        
+
+        circle_fdba450989534144af4aadf93c23e1c9.bindPopup(popup_d66206813b81461484a4ee204a139a94)
+        ;
+
+        
+    
+    
+            var circle_ac2f92497e234f4b85d679509fd40aa8 = L.circle(
+                [47.478, -0.548273],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24800.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_2be2b32f817440fa8d243a211764f25e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_916d0cb505034776829ae7accc9557ce = $(`<div id="html_916d0cb505034776829ae7accc9557ce" style="width: 100.0%; height: 100.0%;">Université d'Angers</div>`)[0];
+            popup_2be2b32f817440fa8d243a211764f25e.setContent(html_916d0cb505034776829ae7accc9557ce);
+        
+
+        circle_ac2f92497e234f4b85d679509fd40aa8.bindPopup(popup_2be2b32f817440fa8d243a211764f25e)
+        ;
+
+        
+    
+    
+            var circle_c3ea5add8fda46d080efe9c58bb36b73 = L.circle(
+                [47.7323, 7.31485],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_20b5e6539b014aee8526a25716ce2ecc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f363022ecfc4a6f93ff7ce378d29df4 = $(`<div id="html_5f363022ecfc4a6f93ff7ce378d29df4" style="width: 100.0%; height: 100.0%;">Université de Haute-Alsace</div>`)[0];
+            popup_20b5e6539b014aee8526a25716ce2ecc.setContent(html_5f363022ecfc4a6f93ff7ce378d29df4);
+        
+
+        circle_c3ea5add8fda46d080efe9c58bb36b73.bindPopup(popup_20b5e6539b014aee8526a25716ce2ecc)
+        ;
+
+        
+    
+    
+            var circle_559ee8a6606a4c8ab579b6afda15450b = L.circle(
+                [47.7461, -3.39083],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27450.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_672cacb0e27249588b1d5ec65cbcfd32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef97fcca03414a6ba4c253b576e1785a = $(`<div id="html_ef97fcca03414a6ba4c253b576e1785a" style="width: 100.0%; height: 100.0%;">Université de Bretagne-Sud</div>`)[0];
+            popup_672cacb0e27249588b1d5ec65cbcfd32.setContent(html_ef97fcca03414a6ba4c253b576e1785a);
+        
+
+        circle_559ee8a6606a4c8ab579b6afda15450b.bindPopup(popup_672cacb0e27249588b1d5ec65cbcfd32)
+        ;
+
+        
+    
+    
+            var circle_3bf7025eefaa47ef89066429658be19e = L.circle(
+                [47.8502, 1.93351],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24900.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_028073c64d3040479b07b6ee43652060 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0360722ef6df4c5d9b1d778f5bd6abf7 = $(`<div id="html_0360722ef6df4c5d9b1d778f5bd6abf7" style="width: 100.0%; height: 100.0%;">Université d'Orléans</div>`)[0];
+            popup_028073c64d3040479b07b6ee43652060.setContent(html_0360722ef6df4c5d9b1d778f5bd6abf7);
+        
+
+        circle_3bf7025eefaa47ef89066429658be19e.bindPopup(popup_028073c64d3040479b07b6ee43652060)
+        ;
+
+        
+    
+    
+            var circle_4451e8c380a74db58d17d039ffead220 = L.circle(
+                [48.0148, 0.159251],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25800.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_d2657ca414c843fdbd5dc0113a62a73e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2e98a4eb95c40dfa11d193509138f09 = $(`<div id="html_f2e98a4eb95c40dfa11d193509138f09" style="width: 100.0%; height: 100.0%;">Le Mans Université</div>`)[0];
+            popup_d2657ca414c843fdbd5dc0113a62a73e.setContent(html_f2e98a4eb95c40dfa11d193509138f09);
+        
+
+        circle_4451e8c380a74db58d17d039ffead220.bindPopup(popup_d2657ca414c843fdbd5dc0113a62a73e)
+        ;
+
+        
+    
+    
+            var circle_bf8ce3d7706c41808937bc737e264e32 = L.circle(
+                [48.1157, -1.67381],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25500.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_e892cd660fe445059635d9cc37556c22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98f5155ded584635b7311fbe3ea32946 = $(`<div id="html_98f5155ded584635b7311fbe3ea32946" style="width: 100.0%; height: 100.0%;">Université de Rennes 1</div>`)[0];
+            popup_e892cd660fe445059635d9cc37556c22.setContent(html_98f5155ded584635b7311fbe3ea32946);
+        
+
+        circle_bf8ce3d7706c41808937bc737e264e32.bindPopup(popup_e892cd660fe445059635d9cc37556c22)
+        ;
+
+        
+    
+    
+            var circle_3444d7c4cb3742b695d34609b1d3103c = L.circle(
+                [48.3983, -4.50774],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26925.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_03b72cdd382f44aba595683246bd0aaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e2c9beb7243439aa84c0b12c802c9ef = $(`<div id="html_3e2c9beb7243439aa84c0b12c802c9ef" style="width: 100.0%; height: 100.0%;">Université de Bretagne Occidentale</div>`)[0];
+            popup_03b72cdd382f44aba595683246bd0aaf.setContent(html_3e2c9beb7243439aa84c0b12c802c9ef);
+        
+
+        circle_3444d7c4cb3742b695d34609b1d3103c.bindPopup(popup_03b72cdd382f44aba595683246bd0aaf)
+        ;
+
+        
+    
+    
+            var circle_9e0338bb369b4b839d13d4d10443a81c = L.circle(
+                [48.579, 7.7663],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_beb12a8f1604451a9cd562c6764101df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c0c21a626924ec29fa873847c69e7f8 = $(`<div id="html_0c0c21a626924ec29fa873847c69e7f8" style="width: 100.0%; height: 100.0%;">Université de Strasbourg</div>`)[0];
+            popup_beb12a8f1604451a9cd562c6764101df.setContent(html_0c0c21a626924ec29fa873847c69e7f8);
+        
+
+        circle_9e0338bb369b4b839d13d4d10443a81c.bindPopup(popup_beb12a8f1604451a9cd562c6764101df)
+        ;
+
+        
+    
+    
+            var circle_8af895227bf74780b40294c656873e7a = L.circle(
+                [48.6249, 2.42643],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28050.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_236abd935d7a4336bf3fe90a6795f4e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dc73100651c4b68923f796f8cb6ce9b = $(`<div id="html_2dc73100651c4b68923f796f8cb6ce9b" style="width: 100.0%; height: 100.0%;">Université d'Évry-Val d'Essonne</div>`)[0];
+            popup_236abd935d7a4336bf3fe90a6795f4e9.setContent(html_2dc73100651c4b68923f796f8cb6ce9b);
+        
+
+        circle_8af895227bf74780b40294c656873e7a.bindPopup(popup_236abd935d7a4336bf3fe90a6795f4e9)
+        ;
+
+        
+    
+    
+            var circle_d9f3da066ae14f4e9dfaf0c6125b340f = L.circle(
+                [48.6962, 6.17634],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27600.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_31da42cffcd140e78973b0b5a5fb0ab6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cbe8575cd7e446aafc074eb9bb50999 = $(`<div id="html_5cbe8575cd7e446aafc074eb9bb50999" style="width: 100.0%; height: 100.0%;">Université de Lorraine</div>`)[0];
+            popup_31da42cffcd140e78973b0b5a5fb0ab6.setContent(html_5cbe8575cd7e446aafc074eb9bb50999);
+        
+
+        circle_d9f3da066ae14f4e9dfaf0c6125b340f.bindPopup(popup_31da42cffcd140e78973b0b5a5fb0ab6)
+        ;
+
+        
+    
+    
+            var circle_6bbd130d007b4bc38ae32a06a73c69b6 = L.circle(
+                [48.7888, 2.44239],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27600.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_f286c8ded7424a7aa19fadbe2ad20acf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11c39284f1d5493e9c23e88dfeb2e5ed = $(`<div id="html_11c39284f1d5493e9c23e88dfeb2e5ed" style="width: 100.0%; height: 100.0%;">Université Paris-Est Créteil Val-de-Marne</div>`)[0];
+            popup_f286c8ded7424a7aa19fadbe2ad20acf.setContent(html_11c39284f1d5493e9c23e88dfeb2e5ed);
+        
+
+        circle_6bbd130d007b4bc38ae32a06a73c69b6.bindPopup(popup_f286c8ded7424a7aa19fadbe2ad20acf)
+        ;
+
+        
+    
+    
+            var circle_91c74f2327b6460e82d7cc7b32338345 = L.circle(
+                [48.851304, 2.340246],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25860.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_9eaf3e712b7c4c38a99baa133634c3f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19abb4960e2a4fe9b0c2e8699778b08e = $(`<div id="html_19abb4960e2a4fe9b0c2e8699778b08e" style="width: 100.0%; height: 100.0%;">Sorbonne Université</div>`)[0];
+            popup_9eaf3e712b7c4c38a99baa133634c3f3.setContent(html_19abb4960e2a4fe9b0c2e8699778b08e);
+        
+
+        circle_91c74f2327b6460e82d7cc7b32338345.bindPopup(popup_9eaf3e712b7c4c38a99baa133634c3f3)
+        ;
+
+        
+    
+    
+            var circle_8943cf08acbd4521b4546f618e7d4fd8 = L.circle(
+                [48.9035, 2.21448],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25200.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_1af586de82ab4287a0e423c9bbdd79ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90fdf93a68734af3947459669043c508 = $(`<div id="html_90fdf93a68734af3947459669043c508" style="width: 100.0%; height: 100.0%;">Université Paris Nanterre</div>`)[0];
+            popup_1af586de82ab4287a0e423c9bbdd79ff.setContent(html_90fdf93a68734af3947459669043c508);
+        
+
+        circle_8943cf08acbd4521b4546f618e7d4fd8.bindPopup(popup_1af586de82ab4287a0e423c9bbdd79ff)
+        ;
+
+        
+    
+    
+            var circle_070e4c02886b4b6aaac01d9199396d59 = L.circle(
+                [49.1887, -0.363108],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25050.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_dca4a4cc705a4da097e7f7845b580d06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_662cafd8940b409db791e8ab33456f83 = $(`<div id="html_662cafd8940b409db791e8ab33456f83" style="width: 100.0%; height: 100.0%;">Université de Caen Normandie</div>`)[0];
+            popup_dca4a4cc705a4da097e7f7845b580d06.setContent(html_662cafd8940b409db791e8ab33456f83);
+        
+
+        circle_070e4c02886b4b6aaac01d9199396d59.bindPopup(popup_dca4a4cc705a4da097e7f7845b580d06)
+        ;
+
+        
+    
+    
+            var circle_a36da86cff354fbb84aac57fbd73c491 = L.circle(
+                [49.2558, 4.0402],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25800.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_339d6e91136d4d76b813f43dc24ec202 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5583de36ae934bb6bebbd583ef6153c8 = $(`<div id="html_5583de36ae934bb6bebbd583ef6153c8" style="width: 100.0%; height: 100.0%;">Université de Reims Champagne-Ardenne</div>`)[0];
+            popup_339d6e91136d4d76b813f43dc24ec202.setContent(html_5583de36ae934bb6bebbd583ef6153c8);
+        
+
+        circle_a36da86cff354fbb84aac57fbd73c491.bindPopup(popup_339d6e91136d4d76b813f43dc24ec202)
+        ;
+
+        
+    
+    
+            var circle_db09970db88343adb1d1f406ea09b8f6 = L.circle(
+                [49.4583, 1.06895],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25800.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_9cd3cc51782541b1b77dadccbf8f2787 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7e0361e14dc422b8618665d4cf0056c = $(`<div id="html_b7e0361e14dc422b8618665d4cf0056c" style="width: 100.0%; height: 100.0%;">Université de Rouen</div>`)[0];
+            popup_9cd3cc51782541b1b77dadccbf8f2787.setContent(html_b7e0361e14dc422b8618665d4cf0056c);
+        
+
+        circle_db09970db88343adb1d1f406ea09b8f6.bindPopup(popup_9cd3cc51782541b1b77dadccbf8f2787)
+        ;
+
+        
+    
+    
+            var circle_f56a5052bae940dbbac8e4238a299383 = L.circle(
+                [49.8743, 2.26417],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26850.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_11cc6a48e9c04f679315fd7f01471999 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b1c41532725427dafcc65f3b8e0bc38 = $(`<div id="html_9b1c41532725427dafcc65f3b8e0bc38" style="width: 100.0%; height: 100.0%;">Université de Picardie Jules-Verne</div>`)[0];
+            popup_11cc6a48e9c04f679315fd7f01471999.setContent(html_9b1c41532725427dafcc65f3b8e0bc38);
+        
+
+        circle_f56a5052bae940dbbac8e4238a299383.bindPopup(popup_11cc6a48e9c04f679315fd7f01471999)
+        ;
+
+        
+    
+    
+            var circle_9618e9e3f81d4121969a86c6125777bc = L.circle(
+                [50.2849, 2.79104],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27750.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_d21af9bbdee44309b5e133103ff23c8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6146c86597774bef9b658ddf42a0d246 = $(`<div id="html_6146c86597774bef9b658ddf42a0d246" style="width: 100.0%; height: 100.0%;">Université d'Artois</div>`)[0];
+            popup_d21af9bbdee44309b5e133103ff23c8c.setContent(html_6146c86597774bef9b658ddf42a0d246);
+        
+
+        circle_9618e9e3f81d4121969a86c6125777bc.bindPopup(popup_d21af9bbdee44309b5e133103ff23c8c)
+        ;
+
+        
+    
+    
+            var circle_09cff2c3a69b48dbb0b85c2a05837e91 = L.circle(
+                [50.6314, 3.07497],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26760.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_cd753305c1584e0faab0543ef9d389cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f428ccebac694f6388430117a0bb611c = $(`<div id="html_f428ccebac694f6388430117a0bb611c" style="width: 100.0%; height: 100.0%;">Université de Lille</div>`)[0];
+            popup_cd753305c1584e0faab0543ef9d389cb.setContent(html_f428ccebac694f6388430117a0bb611c);
+        
+
+        circle_09cff2c3a69b48dbb0b85c2a05837e91.bindPopup(popup_cd753305c1584e0faab0543ef9d389cb)
+        ;
+
+        
+    
+    
+            var circle_d6d0ae83d78e44db8e911e86e6797d93 = L.circle(
+                [51.0391, 2.37216],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25500.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_09b2adee2b684af2889d546355d55f5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09ac07a45dcb481fae2e88dda7dac2b4 = $(`<div id="html_09ac07a45dcb481fae2e88dda7dac2b4" style="width: 100.0%; height: 100.0%;">Université du Littoral Côte d'Opale</div>`)[0];
+            popup_09b2adee2b684af2889d546355d55f5e.setContent(html_09ac07a45dcb481fae2e88dda7dac2b4);
+        
+
+        circle_d6d0ae83d78e44db8e911e86e6797d93.bindPopup(popup_09b2adee2b684af2889d546355d55f5e)
+        ;
+
+        
+    
+    
+            var circle_0d92e03f0e754037980bf90a7db51027 = L.circle(
+                [43.1369, 6.01684],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_061654d4ab6345c5ab6a03c326a63b4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f289db9cafe4421d91f8338b0e6273fd = $(`<div id="html_f289db9cafe4421d91f8338b0e6273fd" style="width: 100.0%; height: 100.0%;">Université de Toulon</div>`)[0];
+            popup_061654d4ab6345c5ab6a03c326a63b4e.setContent(html_f289db9cafe4421d91f8338b0e6273fd);
+        
+
+        circle_0d92e03f0e754037980bf90a7db51027.bindPopup(popup_061654d4ab6345c5ab6a03c326a63b4e)
+        ;
+
+        
+    
+    
+            var circle_02ce86c45cf740fd8dec1877557c163b = L.circle(
+                [43.2936, 5.35871],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_7033d46164334cf79d2c774b8da7a333 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5da1d57bf08245fb85737981335d2eb4 = $(`<div id="html_5da1d57bf08245fb85737981335d2eb4" style="width: 100.0%; height: 100.0%;">Aix-Marseille Université</div>`)[0];
+            popup_7033d46164334cf79d2c774b8da7a333.setContent(html_5da1d57bf08245fb85737981335d2eb4);
+        
+
+        circle_02ce86c45cf740fd8dec1877557c163b.bindPopup(popup_7033d46164334cf79d2c774b8da7a333)
+        ;
+
+        
+    
+    
+            var circle_ab0582f6afd94dcda278fee686d535a1 = L.circle(
+                [43.5608, 1.46936],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_9b12c8dc8d6f4c64a2e309b32c084d65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27b92177e4e14552ba9c5da599320aac = $(`<div id="html_27b92177e4e14552ba9c5da599320aac" style="width: 100.0%; height: 100.0%;">Université de Toulouse 3 - Paul Sabatier</div>`)[0];
+            popup_9b12c8dc8d6f4c64a2e309b32c084d65.setContent(html_27b92177e4e14552ba9c5da599320aac);
+        
+
+        circle_ab0582f6afd94dcda278fee686d535a1.bindPopup(popup_9b12c8dc8d6f4c64a2e309b32c084d65)
+        ;
+
+        
+    
+    
+            var circle_5b99900247c644a1ad2768f5c7ea11fb = L.circle(
+                [43.5784, 1.40266],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_cdc12f9e3185460c968450d5f827e7ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0d935c656764039bd6581dce77288fd = $(`<div id="html_a0d935c656764039bd6581dce77288fd" style="width: 100.0%; height: 100.0%;">Université Toulouse - Jean Jaurès</div>`)[0];
+            popup_cdc12f9e3185460c968450d5f827e7ba.setContent(html_a0d935c656764039bd6581dce77288fd);
+        
+
+        circle_5b99900247c644a1ad2768f5c7ea11fb.bindPopup(popup_cdc12f9e3185460c968450d5f827e7ba)
+        ;
+
+        
+    
+    
+            var circle_78236ffa4de84d4ca4fb003f75cbe27a = L.circle(
+                [43.6326, 3.86938],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21600.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_2aabe6f34fbd474c8eebdc0a53a41189 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2100b20b3ba548da8cd012be656e4329 = $(`<div id="html_2100b20b3ba548da8cd012be656e4329" style="width: 100.0%; height: 100.0%;">Université Montpellier 3 - Paul-Valéry</div>`)[0];
+            popup_2aabe6f34fbd474c8eebdc0a53a41189.setContent(html_2100b20b3ba548da8cd012be656e4329);
+        
+
+        circle_78236ffa4de84d4ca4fb003f75cbe27a.bindPopup(popup_2aabe6f34fbd474c8eebdc0a53a41189)
+        ;
+
+        
+    
+    
+            var circle_b8e513ffd8584c4983564794d3cb4b1e = L.circle(
+                [44.8015, -0.615058],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24150.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_9f7a0d3c65ce4bd680e360561e1e19ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16e5939102b64a468b235da8571a7ccd = $(`<div id="html_16e5939102b64a468b235da8571a7ccd" style="width: 100.0%; height: 100.0%;">Université Bordeaux-Montaigne</div>`)[0];
+            popup_9f7a0d3c65ce4bd680e360561e1e19ec.setContent(html_16e5939102b64a468b235da8571a7ccd);
+        
+
+        circle_b8e513ffd8584c4983564794d3cb4b1e.bindPopup(popup_9f7a0d3c65ce4bd680e360561e1e19ec)
+        ;
+
+        
+    
+    
+            var circle_a8c579ea8c384e61961fb497a7e5ed5d = L.circle(
+                [44.809966, -0.596578],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_71af7c9741644bc59a1176caa7f37267 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33e0a416e9f34ee697a65f8460f342e2 = $(`<div id="html_33e0a416e9f34ee697a65f8460f342e2" style="width: 100.0%; height: 100.0%;">Université de Bordeaux</div>`)[0];
+            popup_71af7c9741644bc59a1176caa7f37267.setContent(html_33e0a416e9f34ee697a65f8460f342e2);
+        
+
+        circle_a8c579ea8c384e61961fb497a7e5ed5d.bindPopup(popup_71af7c9741644bc59a1176caa7f37267)
+        ;
+
+        
+    
+    
+            var circle_829936533b15421bbf5197f56f3bc325 = L.circle(
+                [45.747027, 4.860547],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24150.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_c186c07ccb87452ebd8564817bdcd0ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91001e0e9dc845d2a3bc3b7ebd626a53 = $(`<div id="html_91001e0e9dc845d2a3bc3b7ebd626a53" style="width: 100.0%; height: 100.0%;">Université Jean Moulin - Lyon 3</div>`)[0];
+            popup_c186c07ccb87452ebd8564817bdcd0ed.setContent(html_91001e0e9dc845d2a3bc3b7ebd626a53);
+        
+
+        circle_829936533b15421bbf5197f56f3bc325.bindPopup(popup_c186c07ccb87452ebd8564817bdcd0ed)
+        ;
+
+        
+    
+    
+            var circle_c2351536ad7f4d53966f1423104236ac = L.circle(
+                [45.7492, 4.83714],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28080.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_4dfb11efd5f740bdbb92873361da2d0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93ccc74a0e46415daca9624366337d34 = $(`<div id="html_93ccc74a0e46415daca9624366337d34" style="width: 100.0%; height: 100.0%;">Université Lumière - Lyon 2</div>`)[0];
+            popup_4dfb11efd5f740bdbb92873361da2d0d.setContent(html_93ccc74a0e46415daca9624366337d34);
+        
+
+        circle_c2351536ad7f4d53966f1423104236ac.bindPopup(popup_4dfb11efd5f740bdbb92873361da2d0d)
+        ;
+
+        
+    
+    
+            var circle_7092abac9202465688d3c39806c6aae5 = L.circle(
+                [45.770548, 3.087722],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_59de8bd282c14db1908dc39b1015dfa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0da715b39db4843b93bfa4537e2b6f5 = $(`<div id="html_e0da715b39db4843b93bfa4537e2b6f5" style="width: 100.0%; height: 100.0%;">Université Clermont Auvergne</div>`)[0];
+            popup_59de8bd282c14db1908dc39b1015dfa8.setContent(html_e0da715b39db4843b93bfa4537e2b6f5);
+        
+
+        circle_7092abac9202465688d3c39806c6aae5.bindPopup(popup_59de8bd282c14db1908dc39b1015dfa8)
+        ;
+
+        
+    
+    
+            var circle_b629e2bce7144bffb851c9a57b3d2261 = L.circle(
+                [46.5861, 0.346654],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_6da72673569640b48c65a402b52eca1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff96d6a9cfbb4d669f7b1120c0c6ab59 = $(`<div id="html_ff96d6a9cfbb4d669f7b1120c0c6ab59" style="width: 100.0%; height: 100.0%;">Université de Poitiers</div>`)[0];
+            popup_6da72673569640b48c65a402b52eca1b.setContent(html_ff96d6a9cfbb4d669f7b1120c0c6ab59);
+        
+
+        circle_b629e2bce7144bffb851c9a57b3d2261.bindPopup(popup_6da72673569640b48c65a402b52eca1b)
+        ;
+
+        
+    
+    
+            var circle_6271ccebc78a41eb8816458fad4fd23f = L.circle(
+                [47.2097, -1.55587],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_77ac76406b8747359d32dc9287547683 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79fe796efb8047f79bd520f01e4e6e91 = $(`<div id="html_79fe796efb8047f79bd520f01e4e6e91" style="width: 100.0%; height: 100.0%;">Université de Nantes</div>`)[0];
+            popup_77ac76406b8747359d32dc9287547683.setContent(html_79fe796efb8047f79bd520f01e4e6e91);
+        
+
+        circle_6271ccebc78a41eb8816458fad4fd23f.bindPopup(popup_77ac76406b8747359d32dc9287547683)
+        ;
+
+        
+    
+    
+            var circle_c2ea25e86c57457780eac0a47cab56b8 = L.circle(
+                [47.312807, 5.066372],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24600.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_a4cbf427c5ec4512bd6167fbad546853 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42b0ee4173ee418aa994f93f6d2a7416 = $(`<div id="html_42b0ee4173ee418aa994f93f6d2a7416" style="width: 100.0%; height: 100.0%;">Université de Bourgogne</div>`)[0];
+            popup_a4cbf427c5ec4512bd6167fbad546853.setContent(html_42b0ee4173ee418aa994f93f6d2a7416);
+        
+
+        circle_c2ea25e86c57457780eac0a47cab56b8.bindPopup(popup_a4cbf427c5ec4512bd6167fbad546853)
+        ;
+
+        
+    
+    
+            var circle_9fff9431a1e14a55a294a1e9c4b41861 = L.circle(
+                [47.3837, 0.672511],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_c71525e002c24701880c42c34e47309c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7538519a70f24ff9a401be280807f4f2 = $(`<div id="html_7538519a70f24ff9a401be280807f4f2" style="width: 100.0%; height: 100.0%;">Université de Tours</div>`)[0];
+            popup_c71525e002c24701880c42c34e47309c.setContent(html_7538519a70f24ff9a401be280807f4f2);
+        
+
+        circle_9fff9431a1e14a55a294a1e9c4b41861.bindPopup(popup_c71525e002c24701880c42c34e47309c)
+        ;
+
+        
+    
+    
+            var circle_0073cba5d5a34b52b31f53c58aff78cb = L.circle(
+                [47.478, -0.548273],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_3c15c73903064828a5bdd734880624c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4acd0862b1d43a08c9b592183f96943 = $(`<div id="html_c4acd0862b1d43a08c9b592183f96943" style="width: 100.0%; height: 100.0%;">Université d'Angers</div>`)[0];
+            popup_3c15c73903064828a5bdd734880624c7.setContent(html_c4acd0862b1d43a08c9b592183f96943);
+        
+
+        circle_0073cba5d5a34b52b31f53c58aff78cb.bindPopup(popup_3c15c73903064828a5bdd734880624c7)
+        ;
+
+        
+    
+    
+            var circle_8991d2858cc34543b89a0b7035ee5766 = L.circle(
+                [48.1216, -1.70435],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25800.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_a34d9d6908f44381b356ef4dd2882bbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b13beeb27964488bd423089934fd652 = $(`<div id="html_1b13beeb27964488bd423089934fd652" style="width: 100.0%; height: 100.0%;">Université Rennes 2</div>`)[0];
+            popup_a34d9d6908f44381b356ef4dd2882bbb.setContent(html_1b13beeb27964488bd423089934fd652);
+        
+
+        circle_8991d2858cc34543b89a0b7035ee5766.bindPopup(popup_a34d9d6908f44381b356ef4dd2882bbb)
+        ;
+
+        
+    
+    
+            var circle_57c12980824c4ac586611589436fb655 = L.circle(
+                [48.579, 7.7663],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25950.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_cfe000bc36c94c03bbc164a2d2b089a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_023e446d89c347f5b88e80117c28e5bc = $(`<div id="html_023e446d89c347f5b88e80117c28e5bc" style="width: 100.0%; height: 100.0%;">Université de Strasbourg</div>`)[0];
+            popup_cfe000bc36c94c03bbc164a2d2b089a3.setContent(html_023e446d89c347f5b88e80117c28e5bc);
+        
+
+        circle_57c12980824c4ac586611589436fb655.bindPopup(popup_cfe000bc36c94c03bbc164a2d2b089a3)
+        ;
+
+        
+    
+    
+            var circle_5440e40a4e2948b89759d905d6994143 = L.circle(
+                [48.6962, 6.17634],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26850.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_e8288da63bd5448a84799dbda86ef825 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eefa297db9174decb43a968d04002eaf = $(`<div id="html_eefa297db9174decb43a968d04002eaf" style="width: 100.0%; height: 100.0%;">Université de Lorraine</div>`)[0];
+            popup_e8288da63bd5448a84799dbda86ef825.setContent(html_eefa297db9174decb43a968d04002eaf);
+        
+
+        circle_5440e40a4e2948b89759d905d6994143.bindPopup(popup_e8288da63bd5448a84799dbda86ef825)
+        ;
+
+        
+    
+    
+            var circle_beb4b9c81ac3452988dabe326d63bc03 = L.circle(
+                [48.7888, 2.44239],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_76d3c35d10a84e69be5e527ef6e931a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46f9a372ecc441f2b6898dd71230b0bf = $(`<div id="html_46f9a372ecc441f2b6898dd71230b0bf" style="width: 100.0%; height: 100.0%;">Université Paris-Est Créteil Val-de-Marne</div>`)[0];
+            popup_76d3c35d10a84e69be5e527ef6e931a7.setContent(html_46f9a372ecc441f2b6898dd71230b0bf);
+        
+
+        circle_beb4b9c81ac3452988dabe326d63bc03.bindPopup(popup_76d3c35d10a84e69be5e527ef6e931a7)
+        ;
+
+        
+    
+    
+            var circle_a66b357f3d0747689d1d3330ab3946b2 = L.circle(
+                [48.8468, 2.34488],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_28741c50bc594a22950bd91e45750142 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae3648f426844882bacb059bee8ea4a7 = $(`<div id="html_ae3648f426844882bacb059bee8ea4a7" style="width: 100.0%; height: 100.0%;">Université Paris 1 - Panthéon Sorbonne</div>`)[0];
+            popup_28741c50bc594a22950bd91e45750142.setContent(html_ae3648f426844882bacb059bee8ea4a7);
+        
+
+        circle_a66b357f3d0747689d1d3330ab3946b2.bindPopup(popup_28741c50bc594a22950bd91e45750142)
+        ;
+
+        
+    
+    
+            var circle_4423c122dd724554ada70a8cbb954633 = L.circle(
+                [48.8489, 2.34313],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25050.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_82a82abf52b44819838d738400932121 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_610cd3a717454e0893ddc24882b8a894 = $(`<div id="html_610cd3a717454e0893ddc24882b8a894" style="width: 100.0%; height: 100.0%;">Université Sorbonne Nouvelle - Paris 3</div>`)[0];
+            popup_82a82abf52b44819838d738400932121.setContent(html_610cd3a717454e0893ddc24882b8a894);
+        
+
+        circle_4423c122dd724554ada70a8cbb954633.bindPopup(popup_82a82abf52b44819838d738400932121)
+        ;
+
+        
+    
+    
+            var circle_c69dc520953c4d7a8aeee6b48e3c04da = L.circle(
+                [48.851304, 2.340246],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27150.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_f02a38c411054fd3b4d4a05442b31f0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09a33c5051d944c898d6ce1b284bd77e = $(`<div id="html_09a33c5051d944c898d6ce1b284bd77e" style="width: 100.0%; height: 100.0%;">Sorbonne Université</div>`)[0];
+            popup_f02a38c411054fd3b4d4a05442b31f0b.setContent(html_09a33c5051d944c898d6ce1b284bd77e);
+        
+
+        circle_c69dc520953c4d7a8aeee6b48e3c04da.bindPopup(popup_f02a38c411054fd3b4d4a05442b31f0b)
+        ;
+
+        
+    
+    
+            var circle_bb9914d87d9640cfab303c93c03e94d9 = L.circle(
+                [48.9035, 2.21448],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24900.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_3c1f833583464e27b6aea9c73bd614fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afb7f68c52a64faea407ae8833a22771 = $(`<div id="html_afb7f68c52a64faea407ae8833a22771" style="width: 100.0%; height: 100.0%;">Université Paris Nanterre</div>`)[0];
+            popup_3c1f833583464e27b6aea9c73bd614fa.setContent(html_afb7f68c52a64faea407ae8833a22771);
+        
+
+        circle_bb9914d87d9640cfab303c93c03e94d9.bindPopup(popup_3c1f833583464e27b6aea9c73bd614fa)
+        ;
+
+        
+    
+    
+            var circle_e30be497298b478cb30d53bb8956f404 = L.circle(
+                [48.946, 2.36213],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25350.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_b1ba270c8b68480ba5bcd1323dcbb256 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_583c7a001ee14a478e7c51019d6a47dc = $(`<div id="html_583c7a001ee14a478e7c51019d6a47dc" style="width: 100.0%; height: 100.0%;">Université Paris 8 - Vincennes - Saint-Denis</div>`)[0];
+            popup_b1ba270c8b68480ba5bcd1323dcbb256.setContent(html_583c7a001ee14a478e7c51019d6a47dc);
+        
+
+        circle_e30be497298b478cb30d53bb8956f404.bindPopup(popup_b1ba270c8b68480ba5bcd1323dcbb256)
+        ;
+
+        
+    
+    
+            var circle_eb5f6e1ad21848b78399d6bafdbf6686 = L.circle(
+                [49.1887, -0.363108],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_aa12a1e4adc447f08f01e12d61b1daa2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcec3c7c5949458b994266ca5bfd2f4a = $(`<div id="html_dcec3c7c5949458b994266ca5bfd2f4a" style="width: 100.0%; height: 100.0%;">Université de Caen Normandie</div>`)[0];
+            popup_aa12a1e4adc447f08f01e12d61b1daa2.setContent(html_dcec3c7c5949458b994266ca5bfd2f4a);
+        
+
+        circle_eb5f6e1ad21848b78399d6bafdbf6686.bindPopup(popup_aa12a1e4adc447f08f01e12d61b1daa2)
+        ;
+
+        
+    
+    
+            var circle_8d8a54725bcd446089ce83913e8bc252 = L.circle(
+                [49.8743, 2.26417],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24600.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_3ff70719931647f19225ff89d46617ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a141361b9b24605853bd51a9168918e = $(`<div id="html_3a141361b9b24605853bd51a9168918e" style="width: 100.0%; height: 100.0%;">Université de Picardie Jules-Verne</div>`)[0];
+            popup_3ff70719931647f19225ff89d46617ca.setContent(html_3a141361b9b24605853bd51a9168918e);
+        
+
+        circle_8d8a54725bcd446089ce83913e8bc252.bindPopup(popup_3ff70719931647f19225ff89d46617ca)
+        ;
+
+        
+    
+    
+            var circle_ea383eeba7ec441eba4afaa93aeed723 = L.circle(
+                [50.6314, 3.07497],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27900.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_315544ad6e834cdb96acf52493ae40df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d65a72dec18342a9b8ed892b0837f93f = $(`<div id="html_d65a72dec18342a9b8ed892b0837f93f" style="width: 100.0%; height: 100.0%;">Université de Lille</div>`)[0];
+            popup_315544ad6e834cdb96acf52493ae40df.setContent(html_d65a72dec18342a9b8ed892b0837f93f);
+        
+
+        circle_ea383eeba7ec441eba4afaa93aeed723.bindPopup(popup_315544ad6e834cdb96acf52493ae40df)
+        ;
+
+        
+    
+    
+            var circle_3128a71b9cdb4f30822ad108d2eac36f = L.circle(
+                [51.0391, 2.37216],
+                {"bubblingMouseEvents": true, "color": "lightyellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightyellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_aeac67a9949f45b78a94662e4123fbd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80f28204f83a4538b63822ce44f93437 = $(`<div id="html_80f28204f83a4538b63822ce44f93437" style="width: 100.0%; height: 100.0%;">Université du Littoral Côte d'Opale</div>`)[0];
+            popup_aeac67a9949f45b78a94662e4123fbd1.setContent(html_80f28204f83a4538b63822ce44f93437);
+        
+
+        circle_3128a71b9cdb4f30822ad108d2eac36f.bindPopup(popup_aeac67a9949f45b78a94662e4123fbd1)
+        ;
+
+        
+    
+    
+            var circle_f3cd85f791374b30833da9603be65065 = L.circle(
+                [-20.9019, 55.4843],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28200.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_c178a25320b24046a93e9aba65dd2a93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20376f7f453a474aadf3034d76090df3 = $(`<div id="html_20376f7f453a474aadf3034d76090df3" style="width: 100.0%; height: 100.0%;">Université de La Réunion</div>`)[0];
+            popup_c178a25320b24046a93e9aba65dd2a93.setContent(html_20376f7f453a474aadf3034d76090df3);
+        
+
+        circle_f3cd85f791374b30833da9603be65065.bindPopup(popup_c178a25320b24046a93e9aba65dd2a93)
+        ;
+
+        
+    
+    
+            var circle_6db28d07cad94b74a7382e5f93dc5942 = L.circle(
+                [16.2221, -61.5362],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_6913fe5f5923417d9788a05839de7636 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_597a5a5222d6435d906a9e9b4f998bfb = $(`<div id="html_597a5a5222d6435d906a9e9b4f998bfb" style="width: 100.0%; height: 100.0%;">Université des Antilles</div>`)[0];
+            popup_6913fe5f5923417d9788a05839de7636.setContent(html_597a5a5222d6435d906a9e9b4f998bfb);
+        
+
+        circle_6db28d07cad94b74a7382e5f93dc5942.bindPopup(popup_6913fe5f5923417d9788a05839de7636)
+        ;
+
+        
+    
+    
+            var circle_2dbeafafe1ed481e86d5de1295ba0107 = L.circle(
+                [43.2936, 5.35871],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_75b79685aeac457caed133106b94408d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e45a9fb56c44d67be8055d80c4879e1 = $(`<div id="html_3e45a9fb56c44d67be8055d80c4879e1" style="width: 100.0%; height: 100.0%;">Aix-Marseille Université</div>`)[0];
+            popup_75b79685aeac457caed133106b94408d.setContent(html_3e45a9fb56c44d67be8055d80c4879e1);
+        
+
+        circle_2dbeafafe1ed481e86d5de1295ba0107.bindPopup(popup_75b79685aeac457caed133106b94408d)
+        ;
+
+        
+    
+    
+            var circle_6534af0236f74303b76458d027d18c02 = L.circle(
+                [43.5608, 1.46936],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_15bd9790f94f4854b05fd57d34ac31c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b3940e55d2d40569f26f69ef352ada2 = $(`<div id="html_2b3940e55d2d40569f26f69ef352ada2" style="width: 100.0%; height: 100.0%;">Université de Toulouse 3 - Paul Sabatier</div>`)[0];
+            popup_15bd9790f94f4854b05fd57d34ac31c4.setContent(html_2b3940e55d2d40569f26f69ef352ada2);
+        
+
+        circle_6534af0236f74303b76458d027d18c02.bindPopup(popup_15bd9790f94f4854b05fd57d34ac31c4)
+        ;
+
+        
+    
+    
+            var circle_2a896b292bb14fb499a750f4171646a8 = L.circle(
+                [43.5784, 1.40266],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_eb10b192324049819b77092724e5ed3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a92ad91d2d37419593b0760948d00769 = $(`<div id="html_a92ad91d2d37419593b0760948d00769" style="width: 100.0%; height: 100.0%;">Université Toulouse - Jean Jaurès</div>`)[0];
+            popup_eb10b192324049819b77092724e5ed3e.setContent(html_a92ad91d2d37419593b0760948d00769);
+        
+
+        circle_2a896b292bb14fb499a750f4171646a8.bindPopup(popup_eb10b192324049819b77092724e5ed3e)
+        ;
+
+        
+    
+    
+            var circle_233365723af449aab8c9b5e997d90b88 = L.circle(
+                [43.59848, 3.896874],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_75aa7c4195264ce39713bad97db21ac8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1c342562a8943fb9e11ede2329a9137 = $(`<div id="html_a1c342562a8943fb9e11ede2329a9137" style="width: 100.0%; height: 100.0%;">Université de Montpellier</div>`)[0];
+            popup_75aa7c4195264ce39713bad97db21ac8.setContent(html_a1c342562a8943fb9e11ede2329a9137);
+        
+
+        circle_233365723af449aab8c9b5e997d90b88.bindPopup(popup_75aa7c4195264ce39713bad97db21ac8)
+        ;
+
+        
+    
+    
+            var circle_febe754e4bfd4ea2ad3d630da731b1b7 = L.circle(
+                [43.6326, 3.86938],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_7ebd701815f74970802c5f6ff6d0d625 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_237d800dc5c04148a87ff0a7057ee8c8 = $(`<div id="html_237d800dc5c04148a87ff0a7057ee8c8" style="width: 100.0%; height: 100.0%;">Université Montpellier 3 - Paul-Valéry</div>`)[0];
+            popup_7ebd701815f74970802c5f6ff6d0d625.setContent(html_237d800dc5c04148a87ff0a7057ee8c8);
+        
+
+        circle_febe754e4bfd4ea2ad3d630da731b1b7.bindPopup(popup_7ebd701815f74970802c5f6ff6d0d625)
+        ;
+
+        
+    
+    
+            var circle_82e0a9edddf34d87a94439e41ba8c55b = L.circle(
+                [44.8015, -0.615058],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_83f420f8fb524718b952db09a0dd9404 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adbbcb20dfa24b9481d68f6c00507c53 = $(`<div id="html_adbbcb20dfa24b9481d68f6c00507c53" style="width: 100.0%; height: 100.0%;">Université Bordeaux-Montaigne</div>`)[0];
+            popup_83f420f8fb524718b952db09a0dd9404.setContent(html_adbbcb20dfa24b9481d68f6c00507c53);
+        
+
+        circle_82e0a9edddf34d87a94439e41ba8c55b.bindPopup(popup_83f420f8fb524718b952db09a0dd9404)
+        ;
+
+        
+    
+    
+            var circle_2222c4c28de041ea97af785fbf171c52 = L.circle(
+                [44.809966, -0.596578],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_7568766d833343f984207be97bdceac3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c37c666acab2467d821cc28be72fed00 = $(`<div id="html_c37c666acab2467d821cc28be72fed00" style="width: 100.0%; height: 100.0%;">Université de Bordeaux</div>`)[0];
+            popup_7568766d833343f984207be97bdceac3.setContent(html_c37c666acab2467d821cc28be72fed00);
+        
+
+        circle_2222c4c28de041ea97af785fbf171c52.bindPopup(popup_7568766d833343f984207be97bdceac3)
+        ;
+
+        
+    
+    
+            var circle_586b1816f7c8466f858abeea6c1001ec = L.circle(
+                [45.4249, 4.39294],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_7ea6c4957bb44ceaa9489d0845030699 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08a5327490e640b19e051d4abd4cc1d0 = $(`<div id="html_08a5327490e640b19e051d4abd4cc1d0" style="width: 100.0%; height: 100.0%;">Université Jean Monnet</div>`)[0];
+            popup_7ea6c4957bb44ceaa9489d0845030699.setContent(html_08a5327490e640b19e051d4abd4cc1d0);
+        
+
+        circle_586b1816f7c8466f858abeea6c1001ec.bindPopup(popup_7ea6c4957bb44ceaa9489d0845030699)
+        ;
+
+        
+    
+    
+            var circle_47eb98fb94c84a67a757868dd7f6c496 = L.circle(
+                [45.5668, 5.91765],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_08b3a0db109344e6bbbc67d46aa4bed0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c03905930bc04e2b98c25eb4475998c4 = $(`<div id="html_c03905930bc04e2b98c25eb4475998c4" style="width: 100.0%; height: 100.0%;">Université Savoie Mont Blanc</div>`)[0];
+            popup_08b3a0db109344e6bbbc67d46aa4bed0.setContent(html_c03905930bc04e2b98c25eb4475998c4);
+        
+
+        circle_47eb98fb94c84a67a757868dd7f6c496.bindPopup(popup_08b3a0db109344e6bbbc67d46aa4bed0)
+        ;
+
+        
+    
+    
+            var circle_fbb1d8c60ad1473289c2381dfa3b8136 = L.circle(
+                [45.747027, 4.860547],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_c6e4a82bc33245bf87cd070a11b72a2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09aa8e3273f14e07b1b7fff44aed6c71 = $(`<div id="html_09aa8e3273f14e07b1b7fff44aed6c71" style="width: 100.0%; height: 100.0%;">Université Jean Moulin - Lyon 3</div>`)[0];
+            popup_c6e4a82bc33245bf87cd070a11b72a2f.setContent(html_09aa8e3273f14e07b1b7fff44aed6c71);
+        
+
+        circle_fbb1d8c60ad1473289c2381dfa3b8136.bindPopup(popup_c6e4a82bc33245bf87cd070a11b72a2f)
+        ;
+
+        
+    
+    
+            var circle_91bb35a9d65040f1873085c2da328fdf = L.circle(
+                [45.7492, 4.83714],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_5fd8389be83c463da856fd6334f3987a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_918352e8a0794b338fa1a98286e6c793 = $(`<div id="html_918352e8a0794b338fa1a98286e6c793" style="width: 100.0%; height: 100.0%;">Université Lumière - Lyon 2</div>`)[0];
+            popup_5fd8389be83c463da856fd6334f3987a.setContent(html_918352e8a0794b338fa1a98286e6c793);
+        
+
+        circle_91bb35a9d65040f1873085c2da328fdf.bindPopup(popup_5fd8389be83c463da856fd6334f3987a)
+        ;
+
+        
+    
+    
+            var circle_828dc2c29daa40e1bef3f554855a3a5d = L.circle(
+                [45.770548, 3.087722],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_88ec9d061cae4d909090d2de7a63c671 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10299c22940244c0aaff8a121101f5dc = $(`<div id="html_10299c22940244c0aaff8a121101f5dc" style="width: 100.0%; height: 100.0%;">Université Clermont Auvergne</div>`)[0];
+            popup_88ec9d061cae4d909090d2de7a63c671.setContent(html_10299c22940244c0aaff8a121101f5dc);
+        
+
+        circle_828dc2c29daa40e1bef3f554855a3a5d.bindPopup(popup_88ec9d061cae4d909090d2de7a63c671)
+        ;
+
+        
+    
+    
+            var circle_90885590033144d2b8ea0c6355e6427e = L.circle(
+                [45.782, 4.86651],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_01550c2c001e4028a729e79145881e38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_341b38db719b48b2b3ecff76eaab8819 = $(`<div id="html_341b38db719b48b2b3ecff76eaab8819" style="width: 100.0%; height: 100.0%;">Université Claude Bernard - Lyon 1</div>`)[0];
+            popup_01550c2c001e4028a729e79145881e38.setContent(html_341b38db719b48b2b3ecff76eaab8819);
+        
+
+        circle_90885590033144d2b8ea0c6355e6427e.bindPopup(popup_01550c2c001e4028a729e79145881e38)
+        ;
+
+        
+    
+    
+            var circle_de73fad761c340a6bf97291abfc51187 = L.circle(
+                [46.1482, -1.15506],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_77b3193c9f2e44efa47975b9a57a9fac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_528ad33a15574e81b45ae9be4e8463fe = $(`<div id="html_528ad33a15574e81b45ae9be4e8463fe" style="width: 100.0%; height: 100.0%;">La Rochelle Université</div>`)[0];
+            popup_77b3193c9f2e44efa47975b9a57a9fac.setContent(html_528ad33a15574e81b45ae9be4e8463fe);
+        
+
+        circle_de73fad761c340a6bf97291abfc51187.bindPopup(popup_77b3193c9f2e44efa47975b9a57a9fac)
+        ;
+
+        
+    
+    
+            var circle_a5b4a8d9bff44155a3167b23709d06f3 = L.circle(
+                [46.5861, 0.346654],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_6d2135e931b846b2bcc638119bcaa354 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_517bd14c3cbb452cb0526da900f5ee51 = $(`<div id="html_517bd14c3cbb452cb0526da900f5ee51" style="width: 100.0%; height: 100.0%;">Université de Poitiers</div>`)[0];
+            popup_6d2135e931b846b2bcc638119bcaa354.setContent(html_517bd14c3cbb452cb0526da900f5ee51);
+        
+
+        circle_a5b4a8d9bff44155a3167b23709d06f3.bindPopup(popup_6d2135e931b846b2bcc638119bcaa354)
+        ;
+
+        
+    
+    
+            var circle_77696b0b34a94a7cb54cae52f489690f = L.circle(
+                [47.2097, -1.55587],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_92559d895b1b4575b2380aaba23229e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9791937927864389b94c430634c138b1 = $(`<div id="html_9791937927864389b94c430634c138b1" style="width: 100.0%; height: 100.0%;">Université de Nantes</div>`)[0];
+            popup_92559d895b1b4575b2380aaba23229e3.setContent(html_9791937927864389b94c430634c138b1);
+        
+
+        circle_77696b0b34a94a7cb54cae52f489690f.bindPopup(popup_92559d895b1b4575b2380aaba23229e3)
+        ;
+
+        
+    
+    
+            var circle_0427902d47414a15b67912c52c6ce374 = L.circle(
+                [47.2408, 6.02265],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28500.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_41ba7247866e4cdabbcc7993868680d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81441799eb504b8ca04c38b7ccbec1d4 = $(`<div id="html_81441799eb504b8ca04c38b7ccbec1d4" style="width: 100.0%; height: 100.0%;">Université de Franche-Comté</div>`)[0];
+            popup_41ba7247866e4cdabbcc7993868680d6.setContent(html_81441799eb504b8ca04c38b7ccbec1d4);
+        
+
+        circle_0427902d47414a15b67912c52c6ce374.bindPopup(popup_41ba7247866e4cdabbcc7993868680d6)
+        ;
+
+        
+    
+    
+            var circle_be8789acc82446b780d094a4ba48b845 = L.circle(
+                [47.312807, 5.066372],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_417db0a448db44d29998dbdaf1ba51ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cad1ba116ebe482cb0902816b99131b3 = $(`<div id="html_cad1ba116ebe482cb0902816b99131b3" style="width: 100.0%; height: 100.0%;">Université de Bourgogne</div>`)[0];
+            popup_417db0a448db44d29998dbdaf1ba51ba.setContent(html_cad1ba116ebe482cb0902816b99131b3);
+        
+
+        circle_be8789acc82446b780d094a4ba48b845.bindPopup(popup_417db0a448db44d29998dbdaf1ba51ba)
+        ;
+
+        
+    
+    
+            var circle_9068837be4cd4cd8a212952d299974f6 = L.circle(
+                [47.8502, 1.93351],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_5961973374854ee8ab0a9c7b003eec96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b51eebe3d0584809b4f229e9695448a2 = $(`<div id="html_b51eebe3d0584809b4f229e9695448a2" style="width: 100.0%; height: 100.0%;">Université d'Orléans</div>`)[0];
+            popup_5961973374854ee8ab0a9c7b003eec96.setContent(html_b51eebe3d0584809b4f229e9695448a2);
+        
+
+        circle_9068837be4cd4cd8a212952d299974f6.bindPopup(popup_5961973374854ee8ab0a9c7b003eec96)
+        ;
+
+        
+    
+    
+            var circle_e819d785f32842db99526f78890477c6 = L.circle(
+                [48.1216, -1.70435],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_a31e5ea081724aafa771cc0304807022 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6dfebfc326a413385c822ad4460aadd = $(`<div id="html_e6dfebfc326a413385c822ad4460aadd" style="width: 100.0%; height: 100.0%;">Université Rennes 2</div>`)[0];
+            popup_a31e5ea081724aafa771cc0304807022.setContent(html_e6dfebfc326a413385c822ad4460aadd);
+        
+
+        circle_e819d785f32842db99526f78890477c6.bindPopup(popup_a31e5ea081724aafa771cc0304807022)
+        ;
+
+        
+    
+    
+            var circle_d8e620f332784819896adfbc7099c0a3 = L.circle(
+                [48.3983, -4.50774],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_49032d2ae7b848ebaa6e52688dda561c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_136ab3553e3a4a33b2c8ecd1b7970603 = $(`<div id="html_136ab3553e3a4a33b2c8ecd1b7970603" style="width: 100.0%; height: 100.0%;">Université de Bretagne Occidentale</div>`)[0];
+            popup_49032d2ae7b848ebaa6e52688dda561c.setContent(html_136ab3553e3a4a33b2c8ecd1b7970603);
+        
+
+        circle_d8e620f332784819896adfbc7099c0a3.bindPopup(popup_49032d2ae7b848ebaa6e52688dda561c)
+        ;
+
+        
+    
+    
+            var circle_167dad322fd34208b0525bc3429209c2 = L.circle(
+                [48.579, 7.7663],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_c26a2134f9da443cb191f458328849db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baf7c53629bf473db074e30c6e34866c = $(`<div id="html_baf7c53629bf473db074e30c6e34866c" style="width: 100.0%; height: 100.0%;">Université de Strasbourg</div>`)[0];
+            popup_c26a2134f9da443cb191f458328849db.setContent(html_baf7c53629bf473db074e30c6e34866c);
+        
+
+        circle_167dad322fd34208b0525bc3429209c2.bindPopup(popup_c26a2134f9da443cb191f458328849db)
+        ;
+
+        
+    
+    
+            var circle_f68f34aeeb99444b8455d0f80293dc29 = L.circle(
+                [48.6249, 2.42643],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_664d2decd64b4c7eba521894dc9539d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3a0f1476be04bf291fa5bb6a64ba736 = $(`<div id="html_d3a0f1476be04bf291fa5bb6a64ba736" style="width: 100.0%; height: 100.0%;">Université d'Évry-Val d'Essonne</div>`)[0];
+            popup_664d2decd64b4c7eba521894dc9539d0.setContent(html_d3a0f1476be04bf291fa5bb6a64ba736);
+        
+
+        circle_f68f34aeeb99444b8455d0f80293dc29.bindPopup(popup_664d2decd64b4c7eba521894dc9539d0)
+        ;
+
+        
+    
+    
+            var circle_85f063c3d0c148658ce5fe389dc7f4ca = L.circle(
+                [48.6962, 6.17634],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_5278506640b14e32ae01c5931fe72f00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03342005631342f288844214e1c91e9b = $(`<div id="html_03342005631342f288844214e1c91e9b" style="width: 100.0%; height: 100.0%;">Université de Lorraine</div>`)[0];
+            popup_5278506640b14e32ae01c5931fe72f00.setContent(html_03342005631342f288844214e1c91e9b);
+        
+
+        circle_85f063c3d0c148658ce5fe389dc7f4ca.bindPopup(popup_5278506640b14e32ae01c5931fe72f00)
+        ;
+
+        
+    
+    
+            var circle_444a2fa53af64c1d9f094d8f589550a2 = L.circle(
+                [48.7888, 2.44239],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_2888c76301f34c128936235aaef4a2ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4fd15dba16b49689eef5fcfa38d9375 = $(`<div id="html_c4fd15dba16b49689eef5fcfa38d9375" style="width: 100.0%; height: 100.0%;">Université Paris-Est Créteil Val-de-Marne</div>`)[0];
+            popup_2888c76301f34c128936235aaef4a2ad.setContent(html_c4fd15dba16b49689eef5fcfa38d9375);
+        
+
+        circle_444a2fa53af64c1d9f094d8f589550a2.bindPopup(popup_2888c76301f34c128936235aaef4a2ad)
+        ;
+
+        
+    
+    
+            var circle_226cf65dddbf4e8b945c3e2b334ea508 = L.circle(
+                [48.851304, 2.340246],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_e232aeb2c6de44ee95ae1e8a5df7a556 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3a756b32f384bfaad15782232c353f9 = $(`<div id="html_d3a756b32f384bfaad15782232c353f9" style="width: 100.0%; height: 100.0%;">Sorbonne Université</div>`)[0];
+            popup_e232aeb2c6de44ee95ae1e8a5df7a556.setContent(html_d3a756b32f384bfaad15782232c353f9);
+        
+
+        circle_226cf65dddbf4e8b945c3e2b334ea508.bindPopup(popup_e232aeb2c6de44ee95ae1e8a5df7a556)
+        ;
+
+        
+    
+    
+            var circle_0d7bbb05ba90416dad11f4aabd673c49 = L.circle(
+                [49.1887, -0.363108],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_7348311dbe1641c4843e9c4714b0ee28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a46cf71dffa34170ae1c9b35d78a67de = $(`<div id="html_a46cf71dffa34170ae1c9b35d78a67de" style="width: 100.0%; height: 100.0%;">Université de Caen Normandie</div>`)[0];
+            popup_7348311dbe1641c4843e9c4714b0ee28.setContent(html_a46cf71dffa34170ae1c9b35d78a67de);
+        
+
+        circle_0d7bbb05ba90416dad11f4aabd673c49.bindPopup(popup_7348311dbe1641c4843e9c4714b0ee28)
+        ;
+
+        
+    
+    
+            var circle_e7db16bf6e114374906cb82806cea489 = L.circle(
+                [49.2558, 4.0402],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_bf035a662d9a4aaa84ffcf7567bfdf9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_178a426c5fa3448e9fc118b5752c76d6 = $(`<div id="html_178a426c5fa3448e9fc118b5752c76d6" style="width: 100.0%; height: 100.0%;">Université de Reims Champagne-Ardenne</div>`)[0];
+            popup_bf035a662d9a4aaa84ffcf7567bfdf9a.setContent(html_178a426c5fa3448e9fc118b5752c76d6);
+        
+
+        circle_e7db16bf6e114374906cb82806cea489.bindPopup(popup_bf035a662d9a4aaa84ffcf7567bfdf9a)
+        ;
+
+        
+    
+    
+            var circle_fd9357f33dce4f9ebca3ec54c5d7c857 = L.circle(
+                [49.4583, 1.06895],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_52038f7be4ab4867b5fd678c700eacde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6573476dd1e64dd4b7e6b84b53ffa0c1 = $(`<div id="html_6573476dd1e64dd4b7e6b84b53ffa0c1" style="width: 100.0%; height: 100.0%;">Université de Rouen</div>`)[0];
+            popup_52038f7be4ab4867b5fd678c700eacde.setContent(html_6573476dd1e64dd4b7e6b84b53ffa0c1);
+        
+
+        circle_fd9357f33dce4f9ebca3ec54c5d7c857.bindPopup(popup_52038f7be4ab4867b5fd678c700eacde)
+        ;
+
+        
+    
+    
+            var circle_0b3c02c6933e4f71a89e3217ea478a38 = L.circle(
+                [49.8743, 2.26417],
+                {"bubblingMouseEvents": true, "color": "orchid", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orchid", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_ee576188caaf44c1b88bfa8e4d9f7c2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c6d499b7a214c5690d6cd53f2f472ab = $(`<div id="html_3c6d499b7a214c5690d6cd53f2f472ab" style="width: 100.0%; height: 100.0%;">Université de Picardie Jules-Verne</div>`)[0];
+            popup_ee576188caaf44c1b88bfa8e4d9f7c2c.setContent(html_3c6d499b7a214c5690d6cd53f2f472ab);
+        
+
+        circle_0b3c02c6933e4f71a89e3217ea478a38.bindPopup(popup_ee576188caaf44c1b88bfa8e4d9f7c2c)
+        ;
+
+        
+    
+    
+            var circle_8f3a21ad41b44f4c93f9ef5fdd96d351 = L.circle(
+                [43.2936, 5.35871],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_59135c24351a42788a771609198a2d42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f528eea029a141c5a1151c7b4e3296f1 = $(`<div id="html_f528eea029a141c5a1151c7b4e3296f1" style="width: 100.0%; height: 100.0%;">Aix-Marseille Université</div>`)[0];
+            popup_59135c24351a42788a771609198a2d42.setContent(html_f528eea029a141c5a1151c7b4e3296f1);
+        
+
+        circle_8f3a21ad41b44f4c93f9ef5fdd96d351.bindPopup(popup_59135c24351a42788a771609198a2d42)
+        ;
+
+        
+    
+    
+            var circle_3983b2d5afeb487abbbeeb356298777b = L.circle(
+                [43.5784, 1.40266],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24900.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_5308872b84b34ad39ed88aaee17e457b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e42a0f66904644c4a4d1d179a36a711e = $(`<div id="html_e42a0f66904644c4a4d1d179a36a711e" style="width: 100.0%; height: 100.0%;">Université Toulouse - Jean Jaurès</div>`)[0];
+            popup_5308872b84b34ad39ed88aaee17e457b.setContent(html_e42a0f66904644c4a4d1d179a36a711e);
+        
+
+        circle_3983b2d5afeb487abbbeeb356298777b.bindPopup(popup_5308872b84b34ad39ed88aaee17e457b)
+        ;
+
+        
+    
+    
+            var circle_48909f8f46d84739a586adb7c39640bd = L.circle(
+                [43.6326, 3.86938],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_c0fd5c0a27444d318a3ce29831c07efe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5401f8d636714cd3a89d37edd64df2be = $(`<div id="html_5401f8d636714cd3a89d37edd64df2be" style="width: 100.0%; height: 100.0%;">Université Montpellier 3 - Paul-Valéry</div>`)[0];
+            popup_c0fd5c0a27444d318a3ce29831c07efe.setContent(html_5401f8d636714cd3a89d37edd64df2be);
+        
+
+        circle_48909f8f46d84739a586adb7c39640bd.bindPopup(popup_c0fd5c0a27444d318a3ce29831c07efe)
+        ;
+
+        
+    
+    
+            var circle_cb00cf4d63e44d03ae21d3191f85c249 = L.circle(
+                [44.8015, -0.615058],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22500.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_667dc59ba68e4bf583f8f8fe2c2f9d38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3259d0e2e2d498288756d36acfc0cbb = $(`<div id="html_b3259d0e2e2d498288756d36acfc0cbb" style="width: 100.0%; height: 100.0%;">Université Bordeaux-Montaigne</div>`)[0];
+            popup_667dc59ba68e4bf583f8f8fe2c2f9d38.setContent(html_b3259d0e2e2d498288756d36acfc0cbb);
+        
+
+        circle_cb00cf4d63e44d03ae21d3191f85c249.bindPopup(popup_667dc59ba68e4bf583f8f8fe2c2f9d38)
+        ;
+
+        
+    
+    
+            var circle_b6a9021a89934e1382d95d7d5702ff5e = L.circle(
+                [45.747027, 4.860547],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_26784ed0248743db83e7de93c2acb074 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44dd9a58b1a24aaa8148cc516b3be984 = $(`<div id="html_44dd9a58b1a24aaa8148cc516b3be984" style="width: 100.0%; height: 100.0%;">Université Jean Moulin - Lyon 3</div>`)[0];
+            popup_26784ed0248743db83e7de93c2acb074.setContent(html_44dd9a58b1a24aaa8148cc516b3be984);
+        
+
+        circle_b6a9021a89934e1382d95d7d5702ff5e.bindPopup(popup_26784ed0248743db83e7de93c2acb074)
+        ;
+
+        
+    
+    
+            var circle_0d616bf15e114f559f7b67ab653acaf2 = L.circle(
+                [47.2097, -1.55587],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_e0aa9985f4ac4b4ebee9d626e97fedcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e7ef3e462574a0699a8cffe6c62540a = $(`<div id="html_8e7ef3e462574a0699a8cffe6c62540a" style="width: 100.0%; height: 100.0%;">Université de Nantes</div>`)[0];
+            popup_e0aa9985f4ac4b4ebee9d626e97fedcc.setContent(html_8e7ef3e462574a0699a8cffe6c62540a);
+        
+
+        circle_0d616bf15e114f559f7b67ab653acaf2.bindPopup(popup_e0aa9985f4ac4b4ebee9d626e97fedcc)
+        ;
+
+        
+    
+    
+            var circle_99e5366f22f94c23adc1994af9cef803 = L.circle(
+                [47.478, -0.548273],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28800.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_1ff1d465c209453f8359bf27b3a3f4e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6016abfec35f434aa11cc7c5b6e33bed = $(`<div id="html_6016abfec35f434aa11cc7c5b6e33bed" style="width: 100.0%; height: 100.0%;">Université d'Angers</div>`)[0];
+            popup_1ff1d465c209453f8359bf27b3a3f4e2.setContent(html_6016abfec35f434aa11cc7c5b6e33bed);
+        
+
+        circle_99e5366f22f94c23adc1994af9cef803.bindPopup(popup_1ff1d465c209453f8359bf27b3a3f4e2)
+        ;
+
+        
+    
+    
+            var circle_9b6d014182b942dc826db5b04030d5a7 = L.circle(
+                [48.1216, -1.70435],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24300.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_f1ee00c003064d53b75bcfe6292908d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7d3a4cf4ec54f2d8c2326f9156d3558 = $(`<div id="html_f7d3a4cf4ec54f2d8c2326f9156d3558" style="width: 100.0%; height: 100.0%;">Université Rennes 2</div>`)[0];
+            popup_f1ee00c003064d53b75bcfe6292908d2.setContent(html_f7d3a4cf4ec54f2d8c2326f9156d3558);
+        
+
+        circle_9b6d014182b942dc826db5b04030d5a7.bindPopup(popup_f1ee00c003064d53b75bcfe6292908d2)
+        ;
+
+        
+    
+    
+            var circle_32cfad96209340a480e38e774d063aef = L.circle(
+                [48.3983, -4.50774],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_08da963725c34ffd87833b7c0da21e66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_942f2536b8234423a87b9fefbdab26d3 = $(`<div id="html_942f2536b8234423a87b9fefbdab26d3" style="width: 100.0%; height: 100.0%;">Université de Bretagne Occidentale</div>`)[0];
+            popup_08da963725c34ffd87833b7c0da21e66.setContent(html_942f2536b8234423a87b9fefbdab26d3);
+        
+
+        circle_32cfad96209340a480e38e774d063aef.bindPopup(popup_08da963725c34ffd87833b7c0da21e66)
+        ;
+
+        
+    
+    
+            var circle_a09e72be89824a88a742d99990dc11fd = L.circle(
+                [48.579, 7.7663],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25800.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_d4938de838e44848b6866cf55e04d66d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42136afc909f4c898142059744a77bd9 = $(`<div id="html_42136afc909f4c898142059744a77bd9" style="width: 100.0%; height: 100.0%;">Université de Strasbourg</div>`)[0];
+            popup_d4938de838e44848b6866cf55e04d66d.setContent(html_42136afc909f4c898142059744a77bd9);
+        
+
+        circle_a09e72be89824a88a742d99990dc11fd.bindPopup(popup_d4938de838e44848b6866cf55e04d66d)
+        ;
+
+        
+    
+    
+            var circle_97bdc7ec33dd4cd693551e6cc6bb8da0 = L.circle(
+                [48.6962, 6.17634],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_7519d1f41c524a60baf51219b5edf935 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fa088a881224557b89c5a8f84dfeb63 = $(`<div id="html_7fa088a881224557b89c5a8f84dfeb63" style="width: 100.0%; height: 100.0%;">Université de Lorraine</div>`)[0];
+            popup_7519d1f41c524a60baf51219b5edf935.setContent(html_7fa088a881224557b89c5a8f84dfeb63);
+        
+
+        circle_97bdc7ec33dd4cd693551e6cc6bb8da0.bindPopup(popup_7519d1f41c524a60baf51219b5edf935)
+        ;
+
+        
+    
+    
+            var circle_9f63fb0fff964db2b570072777ac3910 = L.circle(
+                [48.8468, 2.34488],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24900.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_99d1e12fc3b24a1586aa7dc4673a65d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef377b2091ff486188d0c76bc9fd3baa = $(`<div id="html_ef377b2091ff486188d0c76bc9fd3baa" style="width: 100.0%; height: 100.0%;">Université Paris 1 - Panthéon Sorbonne</div>`)[0];
+            popup_99d1e12fc3b24a1586aa7dc4673a65d8.setContent(html_ef377b2091ff486188d0c76bc9fd3baa);
+        
+
+        circle_9f63fb0fff964db2b570072777ac3910.bindPopup(popup_99d1e12fc3b24a1586aa7dc4673a65d8)
+        ;
+
+        
+    
+    
+            var circle_23ae4c21a92a4e4a90241168293ed4b2 = L.circle(
+                [48.8489, 2.34313],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26400.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_2fc5e42d562348a89a565b597f1f03d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e64a6a036174fa7bbebe8053865a195 = $(`<div id="html_8e64a6a036174fa7bbebe8053865a195" style="width: 100.0%; height: 100.0%;">Université Sorbonne Nouvelle - Paris 3</div>`)[0];
+            popup_2fc5e42d562348a89a565b597f1f03d6.setContent(html_8e64a6a036174fa7bbebe8053865a195);
+        
+
+        circle_23ae4c21a92a4e4a90241168293ed4b2.bindPopup(popup_2fc5e42d562348a89a565b597f1f03d6)
+        ;
+
+        
+    
+    
+            var circle_b15dc2796f764b28a164cf5871ad2ed7 = L.circle(
+                [48.851304, 2.340246],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27000.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_0995226398de4a8cacd4d2f38efe00b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_425bee06e1e24925812d1a3171f45d9d = $(`<div id="html_425bee06e1e24925812d1a3171f45d9d" style="width: 100.0%; height: 100.0%;">Sorbonne Université</div>`)[0];
+            popup_0995226398de4a8cacd4d2f38efe00b9.setContent(html_425bee06e1e24925812d1a3171f45d9d);
+        
+
+        circle_b15dc2796f764b28a164cf5871ad2ed7.bindPopup(popup_0995226398de4a8cacd4d2f38efe00b9)
+        ;
+
+        
+    
+    
+            var circle_da645443b3294116a69e27d590caa2cb = L.circle(
+                [48.9035, 2.21448],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23700.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_952feb47ef104369a67eb97ae2b16408 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b89fbbd97eb74851990505ac71322d2a = $(`<div id="html_b89fbbd97eb74851990505ac71322d2a" style="width: 100.0%; height: 100.0%;">Université Paris Nanterre</div>`)[0];
+            popup_952feb47ef104369a67eb97ae2b16408.setContent(html_b89fbbd97eb74851990505ac71322d2a);
+        
+
+        circle_da645443b3294116a69e27d590caa2cb.bindPopup(popup_952feb47ef104369a67eb97ae2b16408)
+        ;
+
+        
+    
+    
+            var circle_f4ef4c4320bc4d98bb929c705959f348 = L.circle(
+                [48.946, 2.36213],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_9ffbea4978494fdfa0c5fea47ebbf0b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bfa7fc0878b400f8b4cda3638d3972d = $(`<div id="html_7bfa7fc0878b400f8b4cda3638d3972d" style="width: 100.0%; height: 100.0%;">Université Paris 8 - Vincennes - Saint-Denis</div>`)[0];
+            popup_9ffbea4978494fdfa0c5fea47ebbf0b6.setContent(html_7bfa7fc0878b400f8b4cda3638d3972d);
+        
+
+        circle_f4ef4c4320bc4d98bb929c705959f348.bindPopup(popup_9ffbea4978494fdfa0c5fea47ebbf0b6)
+        ;
+
+        
+    
+    
+            var circle_5588d7c6fa404fec9a2af5eef24197a0 = L.circle(
+                [50.2849, 2.79104],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_64665ad5584b47f0b5532b17a2f37c5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8eb2c7b33519491d822fabef7b7d7917 = $(`<div id="html_8eb2c7b33519491d822fabef7b7d7917" style="width: 100.0%; height: 100.0%;">Université d'Artois</div>`)[0];
+            popup_64665ad5584b47f0b5532b17a2f37c5f.setContent(html_8eb2c7b33519491d822fabef7b7d7917);
+        
+
+        circle_5588d7c6fa404fec9a2af5eef24197a0.bindPopup(popup_64665ad5584b47f0b5532b17a2f37c5f)
+        ;
+
+        
+    
+    
+            var circle_f9bc072f5f384c48a15d46c52e59c8b5 = L.circle(
+                [50.6314, 3.07497],
+                {"bubblingMouseEvents": true, "color": "salmon", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "salmon", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26100.0, "stroke": true, "weight": 3}
+            ).addTo(map_72bd4b8748994f9389d11e377a657ded);
+        
+    
+        var popup_cdd07783b7284557bb69f1ac8e1c13ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abca535acc7d4576ae8f68cdf4c94c98 = $(`<div id="html_abca535acc7d4576ae8f68cdf4c94c98" style="width: 100.0%; height: 100.0%;">Université de Lille</div>`)[0];
+            popup_cdd07783b7284557bb69f1ac8e1c13ab.setContent(html_abca535acc7d4576ae8f68cdf4c94c98);
+        
+
+        circle_f9bc072f5f384c48a15d46c52e59c8b5.bindPopup(popup_cdd07783b7284557bb69f1ac8e1c13ab)
+        ;
+
+        
+    
+</script>

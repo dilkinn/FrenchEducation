@@ -1,33 +1,13 @@
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
 import folium
 from folium import plugins
+from scipy import stats
 
 """
 Block of functions helps to clean and join dataframes.
 """
-
-# def remove_ns_rows(data, col='Taux d’insertion', pattern='ns'):
-#     '''
-#     Removes 'bad' rows (those which contains 'ns' in col) from
-#     pandas dataframe (data).
-#
-#     Input:
-#     -----
-#     data : pd.DataFrame
-#     col  : str
-#             column name
-#     pattern : string
-#             pattern to look for
-#
-#     Returns:
-#     _______
-#     modified_data : pd.DataFrame
-#     '''
-#     return data.loc[(data[col] != pattern)]
-
 
 def keep_rows_without_remarks(data, col='Remarque'):
     '''
@@ -62,30 +42,6 @@ def keep_columns(data, cols):
     modified_data : pd.DataFrame
     '''
     return data.iloc[:, cols]
-
-
-# def substitute_ns_nd_to_nan(data, cols, d_type=float,
-#                             patterns=('ns', 'nd', '.')):
-#     '''
-#     Substitutes values that match one of the patterns in cols of dataframe data.
-#
-#     Input:
-#     -----
-#     data : pd.DataFrame
-#     cols : list of str
-#             column names
-#     patterns : list of str
-#
-#     Returns:
-#     -------
-#     modified_data : pd.DataFrame
-#     '''
-#     mod_data = data
-#     for pattern in patterns:
-#         mod_data.iloc[:, cols] = mod_data.iloc[:, cols].replace(pattern, np.nan)
-#     mod_data.iloc[:, cols] = mod_data.iloc[:, cols].astype(d_type)
-#
-#     return mod_data
 
 def load_data():
     '''
@@ -695,6 +651,59 @@ def calc_n_st(df):
     df["taux temp plein - out of number of answers"] = df["Taux d’insertion"] \
                                     * df["% emplois à temps plein"] / 100
 
+def p_val(df1, df2, col_name="weighted job placement"):
+    data_1 = df1[col_name].dropna()
+    data_2 = df2[col_name].dropna()
+    stat, p = stats.ttest_ind(data_1, data_2)
+    if p > 0.05:
+        print("We fail to reject the null hypothesis. Our datasets are not proven to be statistically different")
+    elif p < 0.05:
+        print("We reject the null hypothesis. Our datasets are statistically different")
+    print(f'Means for column {col_name}:')
+    print(f'1: {data_1.mean()}')
+    print(f'2: {data_2.mean()}')
+    print(f'p-value: {p}')
+    return p
+
+
+def weighted_dfs(dds, df, time_per=3):
+    h1 = []
+    for i, dd in enumerate(dds):
+        cond_1 = cond_sit(df, time_per, 0)
+        cond_2 = cond_sit(df, time_per, 1)
+
+        df_h = df[(df["Diploma Domain"] == dd) \
+                  & (cond_1 | cond_2)][:]  # .dropna()
+
+        nsum = df_h["Nombre de réponses"].sum()
+
+        df_h["weighted job placement"] = df_h["students number w_job"] / nsum
+        df_h["weighted ft job placement"] = df_h["students number w_fulltime_job"] / nsum
+
+        h1.append(df_h)
+    return h1
+
+
+def ranked_dfs(dds, df, time_per=3):
+    cond_1 = cond_sit(df, time_per, 0)
+    cond_2 = cond_sit(df, time_per, 1)
+    conds = [df["rank"].notnull(), df["rank"].isnull()]
+
+    h2 = []
+    for dd in dds:
+        ranked = []
+        for cond in conds:
+            df_r = df[(df["Diploma Domain"] == dd) \
+                      & (cond_1 | cond_2) & (cond)][:]
+
+            nsum = df_r["Nombre de réponses"].sum()
+
+            df_r["weighted job placement"] = df_r["students number w_job"] / nsum
+            df_r["weighted ft job placement"] = df_r["students number w_fulltime_job"] / nsum
+            ranked.append(df_r)
+        h2.append(ranked)
+
+    return h2
 
 if __name__ == '__main__':
     # Block 1 : Cleaning and joining dataframes.
@@ -705,6 +714,8 @@ if __name__ == '__main__':
     cols_to_keep = [0, 1, 2, 5, 7, 9, 10, 11, 12, 13, 15, 18, 19, 20, 23, 26]
     df_all = df_clean(df_all, cols_to_keep)
     df_all = merge_uni_all(univ_names, df_all)
+    print(f'Total number of answers from students: {df_all["Nombre de réponses"].dropna().sum()}')
+    print(f'Numver of universities: {df_all["Libellé"].value_counts().count()}')
 
     # Block 2: Plotting.
     plot_domain_wise(df_all, "job placement", "images/job_placement.png")
@@ -723,4 +734,25 @@ if __name__ == '__main__':
     calc_n_st(df_all)
     cols_to_keep = [0, 1, 4, 6, 8, 9, 10, 11, 16, 17, 23, 24, 25]
     df_hyp1 = keep_columns(df_all, cols_to_keep)
+    cols_to_keep = [0, 1, 4, 6, 8, 9, 10, 11, 16, 22, 23, 24, 25]
+    df_hyp2 = f.keep_columns(df_all, cols_to_keep)
+    dds = [f.d_domains()[-1], f.d_domains()[7]]
+
+    # Hypothesis 1 : Higher level of education give better chances to get (permanent) job
+    h1 = weighted_dfs(dds, df_hyp1, time_per=3)
+    # Any job placement
+    p_val(h1[0], h1[1], col_name="weighted job placement")
+    p_val(h1[0], h1[1], col_name="Taux d’insertion")
+    # Full-time job placement
+    p_val(h1[0], h1[1], col_name="weighted ft job placement")
+    p_val(h1[0], h1[1], col_name="taux temp plein - out of number of answers")
+
+    # Hypothesis 2 : Higher ranked schools give same job placement as the rest of schools
+    h2 = f.ranked_dfs(dds, df_hyp2, time_per=3)
+    ranks = ['h', 'l']
+    for i, dd in enumerate(dds):
+        print(f'Diploma domain:{dd}')
+        p_val(h2[i][0], h2[i][1], col_name="weighted job placement")
+        p_val(h2[i][0], h2[i][1], col_name="weighted ft job placement")
+
 

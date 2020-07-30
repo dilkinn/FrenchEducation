@@ -65,25 +65,25 @@ Let's take an example of Science, Technology and Health domain and compare Bache
 
 | Job type      |   p-value            | Result         |
 |---------------|:--------------------:|----------------|
-| Any job       | 0.35 > 0.05          | Fail to reject |
-| Full-time job | <img src="https://render.githubusercontent.com/render/math?math=2.62*10^{-5} < 0.05"> | Reject         |
+| Any job       | <img src="https://render.githubusercontent.com/render/math?math=1.76*10^{-5} < 0.05">          | Reject |
+| Full-time job | <img src="https://render.githubusercontent.com/render/math?math=2.61*10^{-5} < 0.05"> | Reject         |
 
-Those results suggests, that whether there is no statistically signigicant difference in job placements for those students who found any kind of job, there is a difference for those who found full-time jobs. And it's indeed more chances to find full time job for a Bachelor diploma holder in Science, Technology and Health domain.
+Those results suggests, any job search in Science, Technology and Health domain should be more successful for Bachelor degree holders.
 
 ### 2nd hypothesis
 My second question: is studying in high-rank universities affect chances to get a job? So my null hypothesis would be that **studying in high-rank universitites doesn't affect chances to get a job**.
 
 | Job type      |   p-value      | Result         |
 |---------------|:--------------:|----------------|
-| Any job       | p << 0.05      | Reject         |
-| Full-time job | p << 0.05.     | Reject         |
+| Any job       | <img src="https://render.githubusercontent.com/render/math?math=10^{-25} < 0.05">     | Reject         |
+| Full-time job | <img src="https://render.githubusercontent.com/render/math?math=1.76*10^{-5} < 0.05">     | Reject         |
 
 The answer is yes, studying in one of top 20 universities increase graduates' chances to become employed.
 
 # Conclusion
-It seems that studying longer and attaining higher degrees in France don't have a straightforward impact on the job placement rates. And threre are reasons for that, for a person with little experience, employer will have to pay more, if that person holds higher degree. So if he has a choice between Bachelor and Master, he will rather take Bachelor. That could be one possible reason for the data I have explored. But there could be other.
+It seems that studying longer and attaining higher degrees in France do not have a straightforward impact on the job placement rates: higher degree one holds, more difficult it become to be that person who received that offer. One of possible reasons could be the higher salary an employer have to pay to an unexperienced worker. 
 
-High-rank universities (top 20) have statistically higher job placement rates compare to all other universities. 
+High-rank universities (top 20) have statistically higher job placement rates compare to all other universities within the same domain. 
 
 ### Further investigation
 
