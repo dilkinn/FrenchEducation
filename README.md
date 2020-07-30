@@ -75,8 +75,10 @@ My second question: is studying in high-rank universities affect chances to get 
 
 |    | Job type      |   p-value      | Result         |
 |----|---------------|:--------------:|----------------|
-| Bac   | Any job       | <img src="https://render.githubusercontent.com/render/math?math=10^{-25} < 0.05">     | Reject         |
-|Bac.   | Full-time job | <img src="https://render.githubusercontent.com/render/math?math=1.76*10^{-5} < 0.05">   |  | Reject         |
+| Bac   | Any job       | <img src="https://render.githubusercontent.com/render/math?math=10^{-11} < 0.05">     | Reject         |
+|Bac   | Full-time job | <img src="https://render.githubusercontent.com/render/math?math=1.76*10^{-11} < 0.05">   |  | Reject         |
+| Mas   | Any job       | <img src="https://render.githubusercontent.com/render/math?math=10^{-17} < 0.05">     | Reject         |
+|Mas   | Full-time job | <img src="https://render.githubusercontent.com/render/math?math=1.76*10^{-15} < 0.05">   |  | Reject         |
 
 The answer is yes, studying in one of top 20 universities increase graduates' chances to become employed.
 
